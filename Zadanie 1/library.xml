@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<!-- Usunąć znaczniki komentarza po utworzeniu pliku DTD -->
+<!-- <!DOCTYPE document SYSTEM "[nazwa].dtd"> -->
+
+<!-- Usunąć znaczniki komentarza po utworzeniu pliku CSS -->
+<!-- <?xml-stylesheet href="style.css" type="text/css" ?> -->
+
+<library>
+  <book id="000-000-0000">
+    <title>ciąg znaków</title>
+    <author id="1"> typ złożony
+      <lastname></lastname>
+      <firstname></firstname>
+      <birthdate></birthdate>
+    </author>
+    <publisher>ciąg znaków</publisher>
+    <page_count>liczba całkowita</page_count>
+    <price>liczba zmiennoprzecinkowa</price>
+    <release_date>data wydania</release_date>
+    <category>typ wyliczeniowy</category>
+  </book>
+  <book id="000-000-1000">
+    <title>ciąg znaków</title>
+    <author idref="1" />
+    <publisher>ciąg znaków</publisher>
+    <page_count>liczba całkowita</page_count>
+    <price>liczba zmiennoprzecinkowa</price>
+    <release_date>data wydania</release_date>
+    <category>typ wyliczeniowy</category>
+  </book>
+</library>
