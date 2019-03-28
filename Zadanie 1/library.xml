@@ -7,9 +7,9 @@
 <!-- <?xml-stylesheet href="style.css" type="text/css" ?> -->
 
 <library>
-  <book id="000-000-0000">
+  <book id="ID000-000-0000">
     <title>Silmarillion</title>
-    <author id="0">
+    <author id="ID0">
       <lastname>Tolkien</lastname>
       <firstname>J. R. R.</firstname>
     </author>
@@ -19,9 +19,9 @@
     <release_date>12-11-2017</release_date>
     <category>fantastyka</category>
   </book>
-  <book id="000-000-0001">
+  <book id="ID000-000-0001">
     <title>Umorzenie</title>
-    <author id="1">
+    <author id="ID1">
       <lastname>Mróz</lastname>
       <firstname>Remigiusz</firstname>
     </author>
@@ -31,9 +31,9 @@
     <release_date>13-03-2019</release_date>
     <category>fantastyka</category>
   </book>
-  <book id="000-000-0002">
+  <book id="ID000-000-0002">
     <title>Dziennik 29. Interaktywna gra książkowa</title>
-    <author id="2">
+    <author id="ID2">
       <lastname>Chassapakis</lastname>
       <firstname>Dimitris</firstname>
     </author>
@@ -43,9 +43,9 @@
     <release_date>13-03-2019</release_date>
     <category>horror</category>
   </book>
-  <book id="000-000-0003">
+  <book id="ID000-000-0003">
     <title>Początek</title>
-    <author id="3">
+    <author id="ID3">
       <lastname>Brown</lastname>
       <firstname>Dan</firstname>
     </author>
@@ -55,9 +55,9 @@
     <release_date>03-10-2017</release_date>
     <category>kryminał</category>
   </book>
-  <book id="000-000-0004">
+  <book id="ID000-000-0004">
     <title>Labirynt duchów</title>
-    <author id="4">
+    <author id="ID4">
       <lastname>Zafon</lastname>
       <firstname>Carlos Ruiz</firstname>
     </author>
@@ -67,9 +67,9 @@
     <release_date>11-10-2017</release_date>
     <category>literatura piękna</category>
   </book>
-  <book id="000-000-0005">
+  <book id="ID000-000-0005">
     <title>Wiedźmin. Szpony i kły</title>
-    <author id="5">
+    <author id="ID5">
       <lastname>Sapkowski</lastname>
       <firstname>Andrzej</firstname>
     </author>
@@ -79,9 +79,9 @@
     <release_date>08-11-2017</release_date>
     <category>fantastyka</category>
   </book>
-  <book id="000-000-0006">
+  <book id="ID000-000-0006">
     <title>Czarownica</title>
-    <author id="6">
+    <author id="ID6">
       <lastname>Lackberg</lastname>
       <firstname>Camilla</firstname>
     </author>
@@ -91,9 +91,9 @@
     <release_date>08-11-2017</release_date>
     <category>kryminał</category>
   </book>
-  <book id="000-000-0007">
+  <book id="ID000-000-0007">
     <title>To</title>
-    <author id="7">
+    <author id="ID7">
       <lastname>King</lastname>
       <firstname>Stephen</firstname>
     </author>
@@ -103,9 +103,9 @@
     <release_date>30-08-2017</release_date>
     <category>horror</category>
   </book>
-  <book id="000-000-0008">
+  <book id="ID000-000-0008">
     <title>Macierewicz i jego tajemnice</title>
-    <author id="8">
+    <author id="ID8">
       <lastname>Piątek</lastname>
       <firstname>Tomasz</firstname>
     </author>
@@ -115,9 +115,9 @@
     <release_date>26-06-2017</release_date>
     <category>literatura faktu</category>
   </book>
-  <book id="000-000-0009">
+  <book id="ID000-000-0009">
     <title>Pierwszy śnieg</title>
-    <author id="9">
+    <author id="ID9">
       <lastname>Nesbo</lastname>
       <firstname>Jo</firstname>
     </author>
@@ -127,9 +127,9 @@
     <release_date>11-10-2017</release_date>
     <category>kryminał</category>
   </book>
-  <book id="000-000-0010">
+  <book id="ID000-000-0010">
     <title>Nietypowa Matka Polka</title>
-    <author id="10">
+    <author id="ID10">
       <lastname>Szczepanek</lastname>
       <firstname>Anna</firstname>
     </author>
@@ -139,9 +139,9 @@
     <release_date>22-08-2018</release_date>
     <category>publicystyka</category>
   </book>
-  <book id="000-000-0011">
+  <book id="ID000-000-0011">
     <title>Wszystkie nasze obietnice</title>
-    <author id="11">
+    <author id="ID11">
       <lastname>Hoover</lastname>
       <firstname>Colleen</firstname>
     </author>
@@ -151,27 +151,27 @@
     <release_date>14-11-2018</release_date>
     <category>romans</category>
   </book>
-  <book id="000-000-0012">
+  <book id="ID000-000-0012">
     <title>Nieodgadniona</title>
-    <author idref="1"/>
+    <author idref="ID1"/>
     <publisher>Filia</publisher>
     <page_count>400</page_count>
     <price>29.99</price>
     <release_date>30-01-2019</release_date>
     <category>kryminał</category>
   </book>
-  <book id="000-000-0013">
+  <book id="ID000-000-0013">
     <title>Kasacja</title>
-    <author idref="1"/>
+    <author idref="ID1"/>
     <publisher>Czwarta strona</publisher>
     <page_count>496</page_count>
     <price>20.99</price>
     <release_date>18-02-2015</release_date>
     <category>kryminał</category>
   </book>
-  <book id="000-000-0014">
+  <book id="ID000-000-0014">
     <title>Tatuażysta z Auschwitz</title>
-    <author id="14">
+    <author id="ID14">
       <lastname>Morris</lastname>
       <firstname>Heather</firstname>
     </author>
@@ -181,9 +181,9 @@
     <release_date>18-04-2018</release_date>
     <category>historyczna</category>
   </book>
-  <book id="000-000-0015">
+  <book id="ID000-000-0015">
     <title>Ślepnąc od świateł</title>
-    <author id="15">
+    <author id="ID15">
       <lastname>Żulczyk</lastname>
       <firstname>Jakub</firstname>
     </author>
@@ -193,27 +193,27 @@
     <release_date>17-10-2018</release_date>
     <category>literatura współczesna</category>
   </book>
-  <book id="000-000-0016">
+  <book id="ID000-000-0016">
     <title>Outsider</title>
-    <author idref="7"/>
+    <author idref="ID7"/>
     <publisher>Prószyński iS-ka</publisher>
     <page_count>640</page_count>
     <price>29.99</price>
     <release_date>05-06-2018</release_date>
     <category>kryminał</category>
   </book>
-  <book id="000-000-0017">
+  <book id="ID000-000-0017">
     <title>Cień wiatru</title>
-    <author idref="4"/>
+    <author idref="ID4"/>
     <publisher>Cmentarz Zapomnianych Książek</publisher>
     <page_count>520</page_count>
     <price>14.99</price>
     <release_date>11-10-2017</release_date>
     <category>literatura współczesna</category>
   </book>
-  <book id="000-000-0018">
+  <book id="ID000-000-0018">
     <title>Ogie n i krew. Część I</title>
-    <author id="18">
+    <author id="ID18">
       <lastname>Martin</lastname>
       <firstname>George R. R.</firstname>
     </author>
@@ -223,9 +223,9 @@
     <release_date>20-11-2018</release_date>
     <category>fantastyka</category>
   </book>
-  <book id="000-000-0019">
+  <book id="ID000-000-0019">
     <title>Rok 1984</title>
-    <author id="19">
+    <author id="ID19">
       <lastname>Orwell</lastname>
       <firstname>George</firstname>
     </author>
@@ -235,9 +235,9 @@
     <release_date>01-01-2014</release_date>
     <category>literatura współczesna</category>
   </book>
-  <book id="000-000-0020">
+  <book id="ID000-000-0020">
     <title>Z każdym wdechem</title>
-    <author id="20">
+    <author id="ID20">
       <lastname>Sparks</lastname>
       <firstname>Nicholas</firstname>
     </author>
@@ -247,9 +247,9 @@
     <release_date>17-10-2018</release_date>
     <category>romans</category>
   </book>
-  <book id="000-000-0021">
+  <book id="ID000-000-0021">
     <title>Metro 2033</title>
-    <author id="21">
+    <author id="ID21">
       <lastname>Glukhovsky</lastname>
       <firstname>Dmitry</firstname>
     </author>
@@ -259,9 +259,9 @@
     <release_date>17-10-2018</release_date>
     <category>fantastyka</category>
   </book>
-  <book id="000-000-0022">
+  <book id="ID000-000-0022">
     <title>Wieża świtu</title>
-    <author id="22">
+    <author id="ID22">
       <lastname>Maas</lastname>
       <firstname>Sarah J.</firstname>
     </author>
@@ -271,9 +271,9 @@
     <release_date>18-04-2018</release_date>
     <category>fantastyka</category>
   </book>
-  <book id="000-000-0023">
+  <book id="ID000-000-0023">
     <title>Zwiadowcy. Klan Czerwonego Lisa</title>
-    <author id="23">
+    <author id="ID23">
       <lastname>Flanagan</lastname>
       <firstname>John</firstname>
     </author>
@@ -283,18 +283,18 @@
     <release_date>20-06-2018</release_date>
     <category>fantastyka</category>
   </book>
-  <book id="000-000-0024">
+  <book id="ID000-000-0024">
     <title>Uniesienie</title>
-    <author idref="7"/>
+    <author idref="ID7"/>
     <publisher>Albatros</publisher>
     <page_count>176</page_count>
     <price>37.99</price>
     <release_date>14-11-2018</release_date>
     <category>horror</category>
   </book>
-  <book id="000-000-0025">
+  <book id="ID000-000-0025">
     <title>Dziwna pogoda</title>
-    <author id="25">
+    <author id="ID25">
       <lastname>Hill</lastname>
       <firstname>Joe</firstname>
     </author>
@@ -304,9 +304,9 @@
     <release_date>05-09-2018</release_date>
     <category>horror</category>
   </book>
-  <book id="000-000-0026">
+  <book id="ID000-000-0026">
     <title>Spektrum</title>
-    <author id="26">
+    <author id="ID26">
       <lastname>Raduchowska</lastname>
       <firstname>Martyna</firstname>
     </author>
@@ -316,9 +316,9 @@
     <release_date>03-10-2018</release_date>
     <category>fantastyka</category>
   </book>
-  <book id="000-000-0027">
+  <book id="ID000-000-0027">
     <title>Koniec śmierci</title>
-    <author id="27">
+    <author id="ID27">
       <lastname>Liu</lastname>
       <firstname>Cixin</firstname>
     </author>
@@ -328,9 +328,9 @@
     <release_date>03-04-2018</release_date>
     <category>fantastyka</category>
   </book>
-  <book id="000-000-0028">
+  <book id="ID000-000-0028">
     <title>Hajmdal. Początek podróży</title>
-    <author id="28">
+    <author id="ID28">
       <lastname>Domagalski</lastname>
       <firstname>Dariusz</firstname>
     </author>
@@ -340,9 +340,9 @@
     <release_date>07-06-2018</release_date>
     <category>fantastyka</category>
   </book>
-  <book id="000-000-0029">
+  <book id="ID000-000-0029">
     <title>Dawca Przysięgi</title>
-    <author id="29">
+    <author id="ID29">
       <lastname>Sanderson</lastname>
       <firstname>Brandon</firstname>
     </author>
@@ -352,9 +352,9 @@
     <release_date>18-04-2018</release_date>
     <category>fantastyka</category>
   </book>
-  <book id="000-000-0030">
+  <book id="ID000-000-0030">
     <title>Virion. Obława</title>
-    <author id="30">
+    <author id="ID30">
       <lastname>Ziemiański</lastname>
       <firstname>Andrzej</firstname>
     </author>
@@ -364,9 +364,9 @@
     <release_date>19-09-2018</release_date>
     <category>fantastyka</category>
   </book>
-  <book id="000-000-0031">
+  <book id="ID000-000-0031">
     <title>Otchłań: Księga I</title>
-    <author id="31">
+    <author id="ID31">
       <lastname>Brett</lastname>
       <firstname>Peter V.</firstname>
     </author>
@@ -376,9 +376,9 @@
     <release_date>31-01-2018</release_date>
     <category>fantastyka</category>
   </book>
-  <book id="000-000-0032">
+  <book id="ID000-000-0032">
     <title>Cień rycerza</title>
-    <author id="32">
+    <author id="ID32">
       <lastname>de Castel</lastname>
       <firstname>Sebastien</firstname>
     </author>
@@ -388,9 +388,9 @@
     <release_date>04-04-2018</release_date>
     <category>fantastyka</category>
   </book>
-  <book id="000-000-0033">
+  <book id="ID000-000-0033">
     <title>Agonia</title>
-    <author id="33">
+    <author id="ID33">
       <lastname>Kapusta</lastname>
       <firstname>Paweł</firstname>
     </author>
@@ -400,9 +400,9 @@
     <release_date>19-09-2018</release_date>
     <category>literatura faktu</category>
   </book>
-  <book id="000-000-0034">
+  <book id="ID000-000-0034">
     <title>Slużące do wszystkiego</title>
-    <author id="34">
+    <author id="ID34">
       <lastname>Kuciel-Frydryszak</lastname>
       <firstname>Joanna</firstname>
     </author>
