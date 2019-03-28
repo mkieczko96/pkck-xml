@@ -4,7 +4,7 @@
 <!-- <!DOCTYPE document SYSTEM "[nazwa].dtd"> -->
 
 <!-- Usunąć znaczniki komentarza po utworzeniu pliku CSS -->
-<!-- <?xml-stylesheet href="style.css" type="text/css" ?> -->
+<?xml-stylesheet href="style.css" type="text/css" ?>
 
 <library>
   <book id="ID000-000-0000">
