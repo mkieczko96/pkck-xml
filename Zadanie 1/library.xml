@@ -153,10 +153,7 @@
   </book>
   <book id="000-000-0012">
     <title>Nieodgadniona</title>
-    <author id="12">
-      <lastname>Mróz</lastname>
-      <firstname>Remigiusz</firstname>
-    </author>
+    <author idref="1"/>
     <publisher>Filia</publisher>
     <page_count>400</page_count>
     <price>29.99</price>
@@ -165,10 +162,7 @@
   </book>
   <book id="000-000-0013">
     <title>Kasacja</title>
-    <author id="13">
-      <lastname>Mróz</lastname>
-      <firstname>Remigiusz</firstname>
-    </author>
+    <author idref="1"/>
     <publisher>Czwarta strona</publisher>
     <page_count>496</page_count>
     <price>20.99</price>
@@ -201,10 +195,7 @@
   </book>
   <book id="000-000-0016">
     <title>Outsider</title>
-    <author id="16">
-      <lastname>King</lastname>
-      <firstname>Stephen</firstname>
-    </author>
+    <author idref="7"/>
     <publisher>Prószyński iS-ka</publisher>
     <page_count>640</page_count>
     <price>29.99</price>
@@ -213,10 +204,7 @@
   </book>
   <book id="000-000-0017">
     <title>Cień wiatru</title>
-    <author id="17">
-      <lastname>Zafon</lastname>
-      <firstname>Carlos Ruiz</firstname>
-    </author>
+    <author idref="4"/>
     <publisher>Cmentarz Zapomnianych Książek</publisher>
     <page_count>520</page_count>
     <price>14.99</price>
@@ -297,10 +285,7 @@
   </book>
   <book id="000-000-0024">
     <title>Uniesienie</title>
-    <author id="24">
-      <lastname>King</lastname>
-      <firstname>Stephen</firstname>
-    </author>
+    <author idref="7"/>
     <publisher>Albatros</publisher>
     <page_count>176</page_count>
     <price>37.99</price>
