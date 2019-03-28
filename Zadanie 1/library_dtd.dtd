@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<!ELEMENT library (book+)>
+<!ELEMENT book (title, price, category)>
+<!ATTLIST book id ID #REQUIRED>
+<!ATTLIST book authorIDREF IDREF #REQUIRED>
+<!ELEMENT title (#PCDATA)>
+<!ELEMENT price (#PCDATA)>
+<!ELEMENT category (#PCDATA)>
+<!ELEMENT release_date (#PCDATA)>
+<!ELEMENT publisher (#PCDATA)>
+<!ELEMENT page_count (#PCDATA)>
+
+<!ELEMENT author (lastname, firstname)>
+<!ATTLIST author authorID ID #REQUIRED>
+<!ELEMENT lastname (#PCDATA)>
+<!ELEMENT firstname (#PCDATA)>
