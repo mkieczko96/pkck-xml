@@ -7,6 +7,10 @@ document-authors {
   display: block;
 }
 
+document-author {
+  display: inline-block;
+}
+
 book {
   border: 1px solid black;
   border-radius: 10px;
