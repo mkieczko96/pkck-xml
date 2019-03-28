@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 
-<!ELEMENT library (book+)>
-<!ELEMENT book (title, price, category)>
+<!ELEMENT library (book+, author+)>
+<!ELEMENT book (title, publisher, page_count, price, release_date, category)>
 <!ATTLIST book id ID #REQUIRED>
 <!ATTLIST book authorIDREF IDREF #REQUIRED>
 <!ELEMENT title (#PCDATA)>
