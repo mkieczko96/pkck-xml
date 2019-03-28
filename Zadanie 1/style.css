@@ -3,6 +3,10 @@ library {
   padding: 15px;
 }
 
+document-authors {
+  display: block;
+}
+
 book {
   border: 1px solid black;
   border-radius: 10px;
