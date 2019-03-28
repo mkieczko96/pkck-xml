@@ -3,107 +3,123 @@ library {
   padding: 15px;
 }
 
-document-authors {
+document-authors,
+document-author > *,
+book > *{
   display: block;
+  position: relative;
+}
+
+document-author,
+document-author > lastname,
+document-author > firstname,
+author {
+  display: inline-block;
+}
+
+document-authors {
+  background-color: Coral;
+  border: 1px solid black;
+  border-radius:10px;
+  width: 450px;
+  margin: 10px auto;
+  padding: 10px;
 }
 
 document-author {
-  display: inline-block;
+  padding: 10px;
+}
+
+document-author > *::before {
+  font-weight: bold;
+}
+
+document-author > lastname {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+document-author > index::before{
+  content: "Indeks: ";
+}
+
+document-author > e-mail::before {
+  content: "E-mail: ";
+}
+
+document-author > faculty::before {
+  content: "Kierunek: ";
+}
+
+document-author > major::before {
+  content: "Specjalizacja: ";
+}
+
+document-author > department::before {
+  content: "Wydział: ";
 }
 
 book {
+  background-color: Wheat;
   border: 1px solid black;
   border-radius: 10px;
-  display: inline-block;
-  width: 400px;
-  background-color: Wheat;
-  padding: 10px;
   font-size: 16px;
+  width: 400px;
+  padding: 10px;
   margin: 10px;
-}
-book * {
-  display: block;
-  position:relative;
+  display: inline-block;
 }
 
-
-title {
-  text-align: center;
+book > title {
   text-decoration: underline;
+  text-align: center;
   font-weight: bold;
   font-size: 20px;
 }
 
-publisher{
-/*  text-indent: 90px;
-  float: right;*/
-}
-publisher:before{
-content: "Wydawnictwo:       ";
-font-weight: bold;
-font-size: 17px;
-white-space: pre;
-}
-
-
-page_count{
-}
-
-page_count:before {
-content: "Liczba stron:          ";
-font-weight: bold;
-font-size: 17px;
-white-space: pre;
-
-}
-
-
-price {
-
-}
-
-price:before{
-  content: "Cena:                      ";
+book > *::before {
   font-weight: bold;
-  font-size: 17px;
   white-space: pre;
-
+  font-size: 17px;
 }
 
-price::after{
+book > publisher::before{
+  content: "Wydawnictwo:       ";
+}
+
+book > page_count::before {
+  content: "Liczba stron:          ";
+}
+
+book > price::before{
+  content: "Cena:                      ";
+}
+
+book > price::after{
   content: " zł";
 }
 
-release_date{
-
-}
-
-release_date:before{
+book > release_date::before{
   content: "Data publikacji:    ";
-  font-weight: bold;
-  font-size: 17px;
-  white-space: pre;
-
 }
 
-category{
-
-}
-
-category:before{
+book > category::before{
   content: "Kategoria:             ";
-  font-weight: bold;
-  font-size: 17px;
-  white-space: pre;
+}
+
+author {
+  background-color: Peru;
+  border: 1px solid black;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 10px;
+  width: 400px;
 
 }
 
-author *{
-display: inline;
-}
-author:before{
+author::before{
   content: "Autor:                    ";
   font-weight: bold;
-  font-size: 17px;
   white-space: pre;
+  font-size: 17px;
 }
