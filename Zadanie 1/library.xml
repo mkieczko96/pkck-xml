@@ -1,9 +1,6 @@
 <?xml version='1.0' encoding='UTF-8' ?>
 
-<!-- Usunąć znaczniki komentarza po utworzeniu pliku DTD -->
 <!DOCTYPE library SYSTEM 'library_dtd.dtd'>
-
-<!-- Usunąć znaczniki komentarza po utworzeniu pliku CSS -->
 <?xml-stylesheet href='style.css' type='text/css' ?>
 
 <library>
