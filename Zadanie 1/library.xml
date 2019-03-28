@@ -8,25 +8,423 @@
 
 <library>
   <book id="000-000-0000">
-    <title>ciąg znaków</title>
-    <author id="1"> typ złożony
-      <lastname></lastname>
-      <firstname></firstname>
-      <birthdate></birthdate>
+    <title>Silmarillion</title>
+    <author id="0">
+      <lastname>Tolkien</lastname>
+      <firstname>J. R. R.</firstname>
     </author>
-    <publisher>ciąg znaków</publisher>
-    <page_count>liczba całkowita</page_count>
-    <price>liczba zmiennoprzecinkowa</price>
-    <release_date>data wydania</release_date>
-    <category>typ wyliczeniowy</category>
+    <publisher>Zysk i Sk-a</publisher>
+    <page_count>687</page_count>
+    <price>39.99</price>
+    <release_date>12-11-2017</release_date>
+    <category>fantastyka</category>
   </book>
-  <book id="000-000-1000">
-    <title>ciąg znaków</title>
-    <author idref="1" />
-    <publisher>ciąg znaków</publisher>
-    <page_count>liczba całkowita</page_count>
-    <price>liczba zmiennoprzecinkowa</price>
-    <release_date>data wydania</release_date>
-    <category>typ wyliczeniowy</category>
+  <book id="000-000-0001">
+    <title>Umorzenie</title>
+    <author id="1">
+      <lastname>Mróz</lastname>
+      <firstname>Remigiusz</firstname>
+    </author>
+    <publisher>Czwarta strona</publisher>
+    <page_count>400</page_count>
+    <price>30.99</price>
+    <release_date>13-03-2019</release_date>
+    <category>fantastyka</category>
+  </book>
+  <book id="000-000-0002">
+    <title>Dziennik 29. Interaktywna gra książkowa</title>
+    <author id="2">
+      <lastname>Chassapakis</lastname>
+      <firstname>Dimitris</firstname>
+    </author>
+    <publisher>Foxgames</publisher>
+    <page_count>120</page_count>
+    <price>22.99</price>
+    <release_date>13-03-2019</release_date>
+    <category>horror</category>
+  </book>
+  <book id="000-000-0003">
+    <title>Początek</title>
+    <author id="3">
+      <lastname>Brown</lastname>
+      <firstname>Dan</firstname>
+    </author>
+    <publisher>Sonia Draga</publisher>
+    <page_count>576</page_count>
+    <price>31.99</price>
+    <release_date>03-10-2017</release_date>
+    <category>kryminał</category>
+  </book>
+  <book id="000-000-0004">
+    <title>Labirynt duchów</title>
+    <author id="4">
+      <lastname>Zafon</lastname>
+      <firstname>Carlos Ruiz</firstname>
+    </author>
+    <publisher>Muza</publisher>
+    <page_count>896</page_count>
+    <price>48.86</price>
+    <release_date>11-10-2017</release_date>
+    <category>literatura piękna</category>
+  </book>
+  <book id="000-000-0005">
+    <title>Wiedźmin. Szpony i kły</title>
+    <author id="5">
+      <lastname>Sapkowski</lastname>
+      <firstname>Andrzej</firstname>
+    </author>
+    <publisher>superNOWA</publisher>
+    <page_count>400</page_count>
+    <price>47.41</price>
+    <release_date>08-11-2017</release_date>
+    <category>fantastyka</category>
+  </book>
+  <book id="000-000-0006">
+    <title>Czarownica</title>
+    <author id="6">
+      <lastname>Lackberg</lastname>
+      <firstname>Camilla</firstname>
+    </author>
+    <publisher>Czarna Owca</publisher>
+    <page_count>592</page_count>
+    <price>33.99</price>
+    <release_date>08-11-2017</release_date>
+    <category>kryminał</category>
+  </book>
+  <book id="000-000-0007">
+    <title>To</title>
+    <author id="7">
+      <lastname>King</lastname>
+      <firstname>Stephen</firstname>
+    </author>
+    <publisher>Albatros</publisher>
+    <page_count>1104</page_count>
+    <price>37.99</price>
+    <release_date>30-08-2017</release_date>
+    <category>horror</category>
+  </book>
+  <book id="000-000-0008">
+    <title>Macierewicz i jego tajemnice</title>
+    <author id="8">
+      <lastname>Piątek</lastname>
+      <firstname>Tomasz</firstname>
+    </author>
+    <publisher>Arbitror</publisher>
+    <page_count>216</page_count>
+    <price>27.99</price>
+    <release_date>26-06-2017</release_date>
+    <category>literatura faktu</category>
+  </book>
+  <book id="000-000-0009">
+    <title>Pierwszy śnieg</title>
+    <author id="9">
+      <lastname>Nesbo</lastname>
+      <firstname>Jo</firstname>
+    </author>
+    <publisher>Wydawnictwo Dolnośląskie</publisher>
+    <page_count>432</page_count>
+    <price>32.99</price>
+    <release_date>11-10-2017</release_date>
+    <category>kryminał</category>
+  </book>
+  <book id="000-000-0010">
+    <title>Nietypowa Matka Polka</title>
+    <author id="10">
+      <lastname>Szczepanek</lastname>
+      <firstname>Anna</firstname>
+    </author>
+    <publisher>Edipresse</publisher>
+    <page_count>320</page_count>
+    <price>27.99</price>
+    <release_date>22-08-2018</release_date>
+    <category>publicystyka</category>
+  </book>
+  <book id="000-000-0011">
+    <title>Wszystkie nasze obietnice</title>
+    <author id="11">
+      <lastname>Hoover</lastname>
+      <firstname>Colleen</firstname>
+    </author>
+    <publisher>Otwarte</publisher>
+    <page_count>294</page_count>
+    <price>25.99</price>
+    <release_date>14-11-2018</release_date>
+    <category>romans</category>
+  </book>
+  <book id="000-000-0012">
+    <title>Nieodgadniona</title>
+    <author id="12">
+      <lastname>Mróz</lastname>
+      <firstname>Remigiusz</firstname>
+    </author>
+    <publisher>Filia</publisher>
+    <page_count>400</page_count>
+    <price>29.99</price>
+    <release_date>30-01-2019</release_date>
+    <category>kryminał</category>
+  </book>
+  <book id="000-000-0013">
+    <title>Kasacja</title>
+    <author id="13">
+      <lastname>Mróz</lastname>
+      <firstname>Remigiusz</firstname>
+    </author>
+    <publisher>Czwarta strona</publisher>
+    <page_count>496</page_count>
+    <price>20.99</price>
+    <release_date>18-02-2015</release_date>
+    <category>kryminał</category>
+  </book>
+  <book id="000-000-0014">
+    <title>Tatuażysta z Auschwitz</title>
+    <author id="14">
+      <lastname>Morris</lastname>
+      <firstname>Heather</firstname>
+    </author>
+    <publisher>Marginesy</publisher>
+    <page_count>320</page_count>
+    <price>22.99</price>
+    <release_date>18-04-2018</release_date>
+    <category>historyczna</category>
+  </book>
+  <book id="000-000-0015">
+    <title>Ślepnąc od świateł</title>
+    <author id="15">
+      <lastname>Żulczyk</lastname>
+      <firstname>Jakub</firstname>
+    </author>
+    <publisher>Świat Książki</publisher>
+    <page_count>520</page_count>
+    <price>24.99</price>
+    <release_date>17-10-2018</release_date>
+    <category>literatura współczesna</category>
+  </book>
+  <book id="000-000-0016">
+    <title>Outsider</title>
+    <author id="16">
+      <lastname>King</lastname>
+      <firstname>Stephen</firstname>
+    </author>
+    <publisher>Prószyński iS-ka</publisher>
+    <page_count>640</page_count>
+    <price>29.99</price>
+    <release_date>05-06-2018</release_date>
+    <category>kryminał</category>
+  </book>
+  <book id="000-000-0017">
+    <title>Cień wiatru</title>
+    <author id="17">
+      <lastname>Zafon</lastname>
+      <firstname>Carlos Ruiz</firstname>
+    </author>
+    <publisher>Cmentarz Zapomnianych Książek</publisher>
+    <page_count>520</page_count>
+    <price>14.99</price>
+    <release_date>11-10-2017</release_date>
+    <category>literatura współczesna</category>
+  </book>
+  <book id="000-000-0018">
+    <title>Ogie n i krew. Część I</title>
+    <author id="18">
+      <lastname>Martin</lastname>
+      <firstname>George R. R.</firstname>
+    </author>
+    <publisher>Zysk i S-ka</publisher>
+    <page_count>612</page_count>
+    <price>39.99</price>
+    <release_date>20-11-2018</release_date>
+    <category>fantastyka</category>
+  </book>
+  <book id="000-000-0019">
+    <title>Rok 1984</title>
+    <author id="19">
+      <lastname>Orwell</lastname>
+      <firstname>George</firstname>
+    </author>
+    <publisher>Muza</publisher>
+    <page_count>360</page_count>
+    <price>9.99</price>
+    <release_date>01-01-2014</release_date>
+    <category>literatura współczesna</category>
+  </book>
+  <book id="000-000-0020">
+    <title>Z każdym wdechem</title>
+    <author id="20">
+      <lastname>Sparks</lastname>
+      <firstname>Nicholas</firstname>
+    </author>
+    <publisher>Albatros</publisher>
+    <page_count>368</page_count>
+    <price>25.99</price>
+    <release_date>17-10-2018</release_date>
+    <category>romans</category>
+  </book>
+  <book id="000-000-0021">
+    <title>Metro 2033</title>
+    <author id="21">
+      <lastname>Glukhovsky</lastname>
+      <firstname>Dmitry</firstname>
+    </author>
+    <publisher>Insignis</publisher>
+    <page_count>342</page_count>
+    <price>27.99</price>
+    <release_date>17-10-2018</release_date>
+    <category>fantastyka</category>
+  </book>
+  <book id="000-000-0022">
+    <title>Wieża świtu</title>
+    <author id="22">
+      <lastname>Maas</lastname>
+      <firstname>Sarah J.</firstname>
+    </author>
+    <publisher>Uroboros</publisher>
+    <page_count>848</page_count>
+    <price>34.99</price>
+    <release_date>18-04-2018</release_date>
+    <category>fantastyka</category>
+  </book>
+  <book id="000-000-0023">
+    <title>Zwiadowcy. Klan Czerwonego Lisa</title>
+    <author id="23">
+      <lastname>Flanagan</lastname>
+      <firstname>John</firstname>
+    </author>
+    <publisher>Jaguar</publisher>
+    <page_count>400</page_count>
+    <price>36.99</price>
+    <release_date>20-06-2018</release_date>
+    <category>fantastyka</category>
+  </book>
+  <book id="000-000-0024">
+    <title>Uniesienie</title>
+    <author id="24">
+      <lastname>King</lastname>
+      <firstname>Stephen</firstname>
+    </author>
+    <publisher>Albatros</publisher>
+    <page_count>176</page_count>
+    <price>37.99</price>
+    <release_date>14-11-2018</release_date>
+    <category>horror</category>
+  </book>
+  <book id="000-000-0025">
+    <title>Dziwna pogoda</title>
+    <author id="25">
+      <lastname>Hill</lastname>
+      <firstname>Joe</firstname>
+    </author>
+    <publisher>Albatros</publisher>
+    <page_count>512</page_count>
+    <price>28.99</price>
+    <release_date>05-09-2018</release_date>
+    <category>horror</category>
+  </book>
+  <book id="000-000-0026">
+    <title>Spektrum</title>
+    <author id="26">
+      <lastname>Raduchowska</lastname>
+      <firstname>Martyna</firstname>
+    </author>
+    <publisher>Uroboros</publisher>
+    <page_count>416</page_count>
+    <price>24.99</price>
+    <release_date>03-10-2018</release_date>
+    <category>fantastyka</category>
+  </book>
+  <book id="000-000-0027">
+    <title>Koniec śmierci</title>
+    <author id="27">
+      <lastname>Liu</lastname>
+      <firstname>Cixin</firstname>
+    </author>
+    <publisher>Rebis</publisher>
+    <page_count>840</page_count>
+    <price>25.99</price>
+    <release_date>03-04-2018</release_date>
+    <category>fantastyka</category>
+  </book>
+  <book id="000-000-0028">
+    <title>Hajmdal. Początek podróży</title>
+    <author id="28">
+      <lastname>Domagalski</lastname>
+      <firstname>Dariusz</firstname>
+    </author>
+    <publisher>Drageus Publishing House</publisher>
+    <page_count>336</page_count>
+    <price>21.99</price>
+    <release_date>07-06-2018</release_date>
+    <category>fantastyka</category>
+  </book>
+  <book id="000-000-0029">
+    <title>Dawca Przysięgi</title>
+    <author id="29">
+      <lastname>Sanderson</lastname>
+      <firstname>Brandon</firstname>
+    </author>
+    <publisher>Mag</publisher>
+    <page_count>656</page_count>
+    <price>33.99</price>
+    <release_date>18-04-2018</release_date>
+    <category>fantastyka</category>
+  </book>
+  <book id="000-000-0030">
+    <title>Virion. Obława</title>
+    <author id="30">
+      <lastname>Ziemiański</lastname>
+      <firstname>Andrzej</firstname>
+    </author>
+    <publisher>Fabryka Słów</publisher>
+    <page_count>506</page_count>
+    <price>25.99</price>
+    <release_date>19-09-2018</release_date>
+    <category>fantastyka</category>
+  </book>
+  <book id="000-000-0031">
+    <title>Otchłań: Księga I</title>
+    <author id="31">
+      <lastname>Brett</lastname>
+      <firstname>Peter V.</firstname>
+    </author>
+    <publisher>Fabryka Słów</publisher>
+    <page_count>702</page_count>
+    <price>26.00</price>
+    <release_date>31-01-2018</release_date>
+    <category>fantastyka</category>
+  </book>
+  <book id="000-000-0032">
+    <title>Cień rycerza</title>
+    <author id="32">
+      <lastname>de Castel</lastname>
+      <firstname>Sebastien</firstname>
+    </author>
+    <publisher>Insignis</publisher>
+    <page_count>648</page_count>
+    <price>36.99</price>
+    <release_date>04-04-2018</release_date>
+    <category>fantastyka</category>
+  </book>
+  <book id="000-000-0033">
+    <title>Agonia</title>
+    <author id="33">
+      <lastname>Kapusta</lastname>
+      <firstname>Paweł</firstname>
+    </author>
+    <publisher>Wielka Litera</publisher>
+    <page_count>304</page_count>
+    <price>24.99</price>
+    <release_date>19-09-2018</release_date>
+    <category>literatura faktu</category>
+  </book>
+  <book id="000-000-0034">
+    <title>Slużące do wszystkiego</title>
+    <author id="34">
+      <lastname>Kuciel-Frydryszak</lastname>
+      <firstname>Joanna</firstname>
+    </author>
+    <publisher>Marginesy</publisher>
+    <page_count>416</page_count>
+    <price>37.99</price>
+    <release_date>17-10-2018</release_date>
+    <category>literatura faktu</category>
   </book>
 </library>
