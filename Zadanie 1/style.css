@@ -1,0 +1,101 @@
+library {
+  background-color: Tan;
+  padding: 15px;
+}
+
+book {
+  border: 1px solid black;
+  border-radius: 10px;
+  display: inline-block;
+  width: 400px;
+  background-color: Wheat;
+  padding: 10px;
+  font-size: 16px;
+  margin: 10px;
+}
+book * {
+  display: block;
+  position:relative;
+}
+
+
+title {
+  text-align: center;
+  text-decoration: underline;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+publisher{
+/*  text-indent: 90px;
+  float: right;*/
+}
+publisher:before{
+content: "Wydawnictwo:       ";
+font-weight: bold;
+font-size: 17px;
+white-space: pre;
+}
+
+
+page_count{
+}
+
+page_count:before {
+content: "Liczba stron:          ";
+font-weight: bold;
+font-size: 17px;
+white-space: pre;
+
+}
+
+
+price {
+
+}
+
+price:before{
+  content: "Cena:                      ";
+  font-weight: bold;
+  font-size: 17px;
+  white-space: pre;
+
+}
+
+price::after{
+  content: " zł";
+}
+
+release_date{
+
+}
+
+release_date:before{
+  content: "Data publikacji:    ";
+  font-weight: bold;
+  font-size: 17px;
+  white-space: pre;
+
+}
+
+category{
+
+}
+
+category:before{
+  content: "Kategoria:             ";
+  font-weight: bold;
+  font-size: 17px;
+  white-space: pre;
+
+}
+
+author *{
+display: inline;
+}
+author:before{
+  content: "Autor:                    ";
+  font-weight: bold;
+  font-size: 17px;
+  white-space: pre;
+}
