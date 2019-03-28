@@ -4,6 +4,27 @@
 <?xml-stylesheet href='style.css' type='text/css' ?>
 
 <library>
+  <document-authors>
+    <document-author>
+      <lastname>WYPYCH</lastname>
+      <firstname>Anna</firstname>
+      <index>210357</index>
+      <e-mail>210357@edu.p.lodz.pl</e-mail>
+      <faculty>Informatyka</faculty>
+      <major>SIBD</major>
+      <department>FTIMS</department>
+    </document-author>
+    <document-author>
+      <lastname>KIECZKOWSKI</lastname>
+      <firstname>Mateusz</firstname>
+      <index>210220</index>
+      <e-mail>210220@edu.p.lodz.pl</e-mail>
+      <faculty>Informatyka</faculty>
+      <major>SIBD</major>
+      <department>FTIMS</department>
+    </document-author>
+  </document-authors>
+
   <book id='ID000-000-0000' authorIDREF='ID0'>
     <title>Silmarillion</title>
     <publisher>Zysk i Sk-a</publisher>

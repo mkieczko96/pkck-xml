@@ -1,6 +1,14 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 
-<!ELEMENT library (book+, author+)>
+<!ELEMENT library (document-authors, book+, author+)>
+<!ELEMENT document-authors (document-author+)>
+<!ELEMENT document-author (lastname, firstname, index, e-mail, faculty, major, department)>
+<!ELEMENT index (#PCDATA)>
+<!ELEMENT e-mail (#PCDATA)>
+<!ELEMENT faculty (#PCDATA)>
+<!ELEMENT major (#PCDATA)>
+<!ELEMENT department (#PCDATA)>
+
 <!ELEMENT book (title, publisher, page_count, price, release_date, category)>
 <!ATTLIST book
     id ID #REQUIRED
