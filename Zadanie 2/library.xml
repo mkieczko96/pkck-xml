@@ -2,8 +2,7 @@
 
 <?xml-stylesheet href='style.css' type='text/css' ?>
 
-<library xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-	xsi:noNamespaceSchemaLocation="library_schema.xsd">
+<library xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="library_schema.xsd">
   <document-authors>
     <document-author>
       <lastname>WYPYCH</lastname>
