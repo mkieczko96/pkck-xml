@@ -5,7 +5,8 @@ library {
 
 document-authors,
 document-author > *,
-book > *{
+book > *, author
+{
   display: block;
   position: relative;
 }
@@ -13,7 +14,9 @@ book > *{
 document-author,
 document-author > lastname,
 document-author > firstname,
-author {
+author > firstname,
+author
+{
   display: inline-block;
 }
 
@@ -70,6 +73,11 @@ book {
   display: inline-block;
 }
 
+book::before {
+	content:"Autor:  " attr(authorIDREF);
+	font-weight:bold;
+}
+
 book > title {
   text-decoration: underline;
   text-align: center;
@@ -114,11 +122,19 @@ author {
   padding: 10px;
   margin: 10px;
   width: 400px;
-
+  content: attr(authorID);
 }
 
 author::before{
-  content: "Autor:                    ";
+  content: "ID: " attr(authorID);
+  font-weight: bold;
+  white-space: pre;
+  font-size: 17px;
+  display: block;
+}
+
+author > lastname::before{
+  content: "Author: ";
   font-weight: bold;
   white-space: pre;
   font-size: 17px;

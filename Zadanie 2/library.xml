@@ -1,9 +1,9 @@
 <?xml version='1.0' encoding='UTF-8' ?>
 
-<!DOCTYPE library SYSTEM 'library_dtd.dtd'>
 <?xml-stylesheet href='style.css' type='text/css' ?>
 
-<library>
+<library xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:noNamespaceSchemaLocation="library_schema.xsd">
   <document-authors>
     <document-author>
       <lastname>WYPYCH</lastname>
@@ -25,7 +25,7 @@
     </document-author>
   </document-authors>
 
-  <book id='ID000-000-0000' authorIDREF='ID0'>
+  <book bookID='ID000-000-0000' authorIDREF='ID0'>
     <title>Silmarillion</title>
     <publisher>Zysk i Sk-a</publisher>
     <page_count>687</page_count>
@@ -33,7 +33,7 @@
     <release_date>12-11-2017</release_date>
     <category>fantastyka</category>
   </book>
-  <book id='ID000-000-0001' authorIDREF='ID1'>
+  <book bookID='ID000-000-0001' authorIDREF='ID1'>
     <title>Umorzenie</title>
     <publisher>Czwarta strona</publisher>
     <page_count>400</page_count>
@@ -41,7 +41,7 @@
     <release_date>13-03-2019</release_date>
     <category>fantastyka</category>
   </book>
-  <book id='ID000-000-0002' authorIDREF='ID2'>
+  <book bookID='ID000-000-0002' authorIDREF='ID2'>
     <title>Dziennik 29. Interaktywna gra książkowa</title>
     <publisher>Foxgames</publisher>
     <page_count>120</page_count>
@@ -49,7 +49,7 @@
     <release_date>13-03-2019</release_date>
     <category>horror</category>
   </book>
-  <book id='ID000-000-0003' authorIDREF='ID3'>
+  <book bookID='ID000-000-0003' authorIDREF='ID3'>
     <title>Początek</title>
     <publisher>Sonia Draga</publisher>
     <page_count>576</page_count>
@@ -57,7 +57,7 @@
     <release_date>03-10-2017</release_date>
     <category>kryminał</category>
   </book>
-  <book id='ID000-000-0004' authorIDREF='ID4'>
+  <book bookID='ID000-000-0004' authorIDREF='ID4'>
     <title>Labirynt duchów</title>
     <publisher>Muza</publisher>
     <page_count>896</page_count>
@@ -65,7 +65,7 @@
     <release_date>11-10-2017</release_date>
     <category>literatura piękna</category>
   </book>
-  <book id='ID000-000-0005' authorIDREF='ID5'>
+  <book bookID='ID000-000-0005' authorIDREF='ID5'>
     <title>Wiedźmin. Szpony i kły</title>
     <publisher>superNOWA</publisher>
     <page_count>400</page_count>
@@ -73,7 +73,7 @@
     <release_date>08-11-2017</release_date>
     <category>fantastyka</category>
   </book>
-  <book id='ID000-000-0006' authorIDREF='ID6'>
+  <book bookID='ID000-000-0006' authorIDREF='ID6'>
     <title>Czarownica</title>
     <publisher>Czarna Owca</publisher>
     <page_count>592</page_count>
@@ -81,7 +81,7 @@
     <release_date>08-11-2017</release_date>
     <category>kryminał</category>
   </book>
-  <book id='ID000-000-0007' authorIDREF='ID7'>
+  <book bookID='ID000-000-0007' authorIDREF='ID7'>
     <title>To</title>
     <publisher>Albatros</publisher>
     <page_count>1104</page_count>
@@ -89,7 +89,7 @@
     <release_date>30-08-2017</release_date>
     <category>horror</category>
   </book>
-  <book id='ID000-000-0008' authorIDREF='ID8'>
+  <book bookID='ID000-000-0008' authorIDREF='ID8'>
     <title>Macierewicz i jego tajemnice</title>
     <publisher>Arbitror</publisher>
     <page_count>216</page_count>
@@ -97,7 +97,7 @@
     <release_date>26-06-2017</release_date>
     <category>literatura faktu</category>
   </book>
-  <book id='ID000-000-0009' authorIDREF='ID9'>
+  <book bookID='ID000-000-0009' authorIDREF='ID9'>
     <title>Pierwszy śnieg</title>
     <publisher>Wydawnictwo Dolnośląskie</publisher>
     <page_count>432</page_count>
@@ -105,7 +105,7 @@
     <release_date>11-10-2017</release_date>
     <category>kryminał</category>
   </book>
-  <book id='ID000-000-0010' authorIDREF='ID10'>
+  <book bookID='ID000-000-0010' authorIDREF='ID10'>
     <title>Nietypowa Matka Polka</title>
     <publisher>Edipresse</publisher>
     <page_count>320</page_count>
@@ -113,7 +113,7 @@
     <release_date>22-08-2018</release_date>
     <category>publicystyka</category>
   </book>
-  <book id='ID000-000-0011' authorIDREF='ID11'>
+  <book bookID='ID000-000-0011' authorIDREF='ID11'>
     <title>Wszystkie nasze obietnice</title>
     <publisher>Otwarte</publisher>
     <page_count>294</page_count>
@@ -121,7 +121,7 @@
     <release_date>14-11-2018</release_date>
     <category>romans</category>
   </book>
-  <book id='ID000-000-0012' authorIDREF='ID1'>
+  <book bookID='ID000-000-0012' authorIDREF='ID1'>
     <title>Nieodgadniona</title>
     <publisher>Filia</publisher>
     <page_count>400</page_count>
@@ -129,7 +129,7 @@
     <release_date>30-01-2019</release_date>
     <category>kryminał</category>
   </book>
-  <book id='ID000-000-0013' authorIDREF='ID1'>
+  <book bookID='ID000-000-0013' authorIDREF='ID1'>
     <title>Kasacja</title>
     <publisher>Czwarta strona</publisher>
     <page_count>496</page_count>
@@ -137,7 +137,7 @@
     <release_date>18-02-2015</release_date>
     <category>kryminał</category>
   </book>
-  <book id='ID000-000-0014' authorIDREF='ID14'>
+  <book bookID='ID000-000-0014' authorIDREF='ID14'>
     <title>Tatuażysta z Auschwitz</title>
     <publisher>Marginesy</publisher>
     <page_count>320</page_count>
@@ -145,7 +145,7 @@
     <release_date>18-04-2018</release_date>
     <category>historyczna</category>
   </book>
-  <book id='ID000-000-0015' authorIDREF='ID15'>
+  <book bookID='ID000-000-0015' authorIDREF='ID15'>
     <title>Ślepnąc od świateł</title>
     <publisher>Świat Książki</publisher>
     <page_count>520</page_count>
@@ -153,7 +153,7 @@
     <release_date>17-10-2018</release_date>
     <category>literatura współczesna</category>
   </book>
-  <book id='ID000-000-0016' authorIDREF='ID7'>
+  <book bookID='ID000-000-0016' authorIDREF='ID7'>
     <title>Outsider</title>
     <publisher>Prószyński iS-ka</publisher>
     <page_count>640</page_count>
@@ -161,7 +161,7 @@
     <release_date>05-06-2018</release_date>
     <category>kryminał</category>
   </book>
-  <book id='ID000-000-0017' authorIDREF='ID4'>
+  <book bookID='ID000-000-0017' authorIDREF='ID4'>
     <title>Cień wiatru</title>
     <publisher>Cmentarz Zapomnianych Książek</publisher>
     <page_count>520</page_count>
@@ -169,7 +169,7 @@
     <release_date>11-10-2017</release_date>
     <category>literatura współczesna</category>
   </book>
-  <book id='ID000-000-0018' authorIDREF='ID18'>
+  <book bookID='ID000-000-0018' authorIDREF='ID18'>
     <title>Ogie n i krew. Część I</title>
     <publisher>Zysk i S-ka</publisher>
     <page_count>612</page_count>
@@ -177,7 +177,7 @@
     <release_date>20-11-2018</release_date>
     <category>fantastyka</category>
   </book>
-  <book id='ID000-000-0019' authorIDREF='ID19'>
+  <book bookID='ID000-000-0019' authorIDREF='ID19'>
     <title>Rok 1984</title>
     <publisher>Muza</publisher>
     <page_count>360</page_count>
@@ -185,7 +185,7 @@
     <release_date>01-01-2014</release_date>
     <category>literatura współczesna</category>
   </book>
-  <book id='ID000-000-0020' authorIDREF='ID20'>
+  <book bookID='ID000-000-0020' authorIDREF='ID20'>
     <title>Z każdym wdechem</title>
     <publisher>Albatros</publisher>
     <page_count>368</page_count>
@@ -193,7 +193,7 @@
     <release_date>17-10-2018</release_date>
     <category>romans</category>
   </book>
-  <book id='ID000-000-0021' authorIDREF='ID21'>
+  <book bookID='ID000-000-0021' authorIDREF='ID21'>
     <title>Metro 2033</title>
     <publisher>Insignis</publisher>
     <page_count>342</page_count>
@@ -201,7 +201,7 @@
     <release_date>17-10-2018</release_date>
     <category>fantastyka</category>
   </book>
-  <book id='ID000-000-0022' authorIDREF='ID22'>
+  <book bookID='ID000-000-0022' authorIDREF='ID22'>
     <title>Wieża świtu</title>
     <publisher>Uroboros</publisher>
     <page_count>848</page_count>
@@ -209,7 +209,7 @@
     <release_date>18-04-2018</release_date>
     <category>fantastyka</category>
   </book>
-  <book id='ID000-000-0023' authorIDREF='ID23'>
+  <book bookID='ID000-000-0023' authorIDREF='ID23'>
     <title>Zwiadowcy. Klan Czerwonego Lisa</title>
     <publisher>Jaguar</publisher>
     <page_count>400</page_count>
@@ -217,7 +217,7 @@
     <release_date>20-06-2018</release_date>
     <category>fantastyka</category>
   </book>
-  <book id='ID000-000-0024' authorIDREF='ID7'>
+  <book bookID='ID000-000-0024' authorIDREF='ID7'>
     <title>Uniesienie</title>
     <publisher>Albatros</publisher>
     <page_count>176</page_count>
@@ -225,7 +225,7 @@
     <release_date>14-11-2018</release_date>
     <category>horror</category>
   </book>
-  <book id='ID000-000-0025' authorIDREF='ID25'>
+  <book bookID='ID000-000-0025' authorIDREF='ID25'>
     <title>Dziwna pogoda</title>
     <publisher>Albatros</publisher>
     <page_count>512</page_count>
@@ -233,7 +233,7 @@
     <release_date>05-09-2018</release_date>
     <category>horror</category>
   </book>
-  <book id='ID000-000-0026' authorIDREF='ID26'>
+  <book bookID='ID000-000-0026' authorIDREF='ID26'>
     <title>Spektrum</title>
     <publisher>Uroboros</publisher>
     <page_count>416</page_count>
@@ -241,7 +241,7 @@
     <release_date>03-10-2018</release_date>
     <category>fantastyka</category>
   </book>
-  <book id='ID000-000-0027' authorIDREF='ID27'>
+  <book bookID='ID000-000-0027' authorIDREF='ID27'>
     <title>Koniec śmierci</title>
     <publisher>Rebis</publisher>
     <page_count>840</page_count>
@@ -249,7 +249,7 @@
     <release_date>03-04-2018</release_date>
     <category>fantastyka</category>
   </book>
-  <book id='ID000-000-0028' authorIDREF='ID28'>
+  <book bookID='ID000-000-0028' authorIDREF='ID28'>
     <title>Hajmdal. Początek podróży</title>
     <publisher>Drageus Publishing House</publisher>
     <page_count>336</page_count>
@@ -257,7 +257,7 @@
     <release_date>07-06-2018</release_date>
     <category>fantastyka</category>
   </book>
-  <book id='ID000-000-0029' authorIDREF='ID29'>
+  <book bookID='ID000-000-0029' authorIDREF='ID29'>
     <title>Dawca Przysięgi</title>
     <publisher>Mag</publisher>
     <page_count>656</page_count>
@@ -265,7 +265,7 @@
     <release_date>18-04-2018</release_date>
     <category>fantastyka</category>
   </book>
-  <book id='ID000-000-0030' authorIDREF='ID30'>
+  <book bookID='ID000-000-0030' authorIDREF='ID30'>
     <title>Virion. Obława</title>
     <publisher>Fabryka Słów</publisher>
     <page_count>506</page_count>
@@ -273,7 +273,7 @@
     <release_date>19-09-2018</release_date>
     <category>fantastyka</category>
   </book>
-  <book id='ID000-000-0031' authorIDREF='ID31'>
+  <book bookID='ID000-000-0031' authorIDREF='ID31'>
     <title>Otchłań: Księga I</title>
     <publisher>Fabryka Słów</publisher>
     <page_count>702</page_count>
@@ -281,7 +281,7 @@
     <release_date>31-01-2018</release_date>
     <category>fantastyka</category>
   </book>
-  <book id='ID000-000-0032' authorIDREF='ID32'>
+  <book bookID='ID000-000-0032' authorIDREF='ID32'>
     <title>Cień rycerza</title>
     <publisher>Insignis</publisher>
     <page_count>648</page_count>
@@ -289,7 +289,7 @@
     <release_date>04-04-2018</release_date>
     <category>fantastyka</category>
   </book>
-  <book id='ID000-000-0033' authorIDREF='ID33'>
+  <book bookID='ID000-000-0033' authorIDREF='ID33'>
     <title>Agonia</title>
     <publisher>Wielka Litera</publisher>
     <page_count>304</page_count>
@@ -297,7 +297,7 @@
     <release_date>19-09-2018</release_date>
     <category>literatura faktu</category>
   </book>
-  <book id='ID000-000-0034' authorIDREF='ID34'>
+  <book bookID='ID000-000-0034' authorIDREF='ID34'>
     <title>Slużące do wszystkiego</title>
     <publisher>Marginesy</publisher>
     <page_count>416</page_count>
