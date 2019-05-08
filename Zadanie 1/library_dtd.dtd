@@ -12,7 +12,7 @@
 <!ELEMENT book (title, publisher, page_count, price, release_date, category)>
 <!ATTLIST book
     id ID #REQUIRED
-    authorIDREF IDREF #REQUIRED>
+    authorIDREF IDREF #IMPLIED>
 <!ELEMENT title (#PCDATA)>
 <!ELEMENT price (#PCDATA)>
 <!ELEMENT category (#PCDATA)>
