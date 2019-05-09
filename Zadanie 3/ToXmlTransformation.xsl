@@ -40,7 +40,13 @@
                             <xsl:value-of select="category"/>
                         </category>
                         <author>
-                            <xsl:value-of select="attribute::authorIDREF"/>
+                            <xsl:for-each select="attribute::authorIDREF">
+                                <xsl:variable name="idref" select="."/>
+                                <xsl:value-of select="concat(ancestor::*/author[attribute::authorID = $idref]/lastname, ', ', ancestor::*/author[attribute::authorID = $idref]/firstname)"/>
+                                <xsl:if test="position() != last()">
+                                    <xsl:text>, </xsl:text>
+                                </xsl:if>
+                            </xsl:for-each>
                         </author>
                         <isbn>
                             <xsl:value-of select="attribute::bookID"/>
@@ -66,7 +72,7 @@
                 <date_generated></date_generated>
                 <statistics>
                     <books_per_category>
-                        
+
                     </books_per_category>
                     <!-- ile książek w każdej z kategorii, średnia cena książek w kategorii, lista autorów w kategorii -->
                 </statistics>
