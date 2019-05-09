@@ -1,6 +1,7 @@
 <?xml version="1.0"?>
 
-<xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
+<xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
+                xmlns:ex="http://exslt.org/dates-and-times" extension-element-prefixes="ex">
 
     <xsl:output method="xml"/>
 
@@ -11,8 +12,7 @@
                 <xsl:for-each select="library/document-authors">
                     <xsl:for-each select="document-author">
                         <creator>
-                            <name><xsl:value-of select="lastname"/>,
-                                <xsl:value-of select="firstname"/>
+                            <name><xsl:value-of select="lastname"/>, <xsl:value-of select="firstname"/>
                             </name>
                             <index>
                                 <xsl:value-of select="index"/>
@@ -20,8 +20,7 @@
                             <e-mail>
                                 <xsl:value-of select="e-mail"/>
                             </e-mail>
-                            <study>Wydzial <xsl:value-of select="department"/>, <xsl:value-of select="faculty"/>,
-                                <xsl:value-of select="major"/>
+                            <study>Wydzial <xsl:value-of select="department"/>, <xsl:value-of select="faculty"/>, <xsl:value-of select="major"/>
                             </study>
                         </creator>
                     </xsl:for-each>
@@ -42,7 +41,8 @@
                         <author>
                             <xsl:for-each select="attribute::authorIDREF">
                                 <xsl:variable name="idref" select="."/>
-                                <xsl:value-of select="concat(ancestor::*/author[attribute::authorID = $idref]/lastname, ', ', ancestor::*/author[attribute::authorID = $idref]/firstname)"/>
+                                <xsl:value-of
+                                        select="concat(ancestor::*/author[attribute::authorID = $idref]/lastname, ', ', ancestor::*/author[attribute::authorID = $idref]/firstname)"/>
                                 <xsl:if test="position() != last()">
                                     <xsl:text>, </xsl:text>
                                 </xsl:if>
@@ -69,13 +69,10 @@
             </library>
 
             <summary>
-                <date_generated></date_generated>
-                <statistics>
-                    <books_per_category>
-
-                    </books_per_category>
-                    <!-- ile książek w każdej z kategorii, średnia cena książek w kategorii, lista autorów w kategorii -->
-                </statistics>
+                <date_generated>
+                    <xsl:value-of
+                            select="concat(substring-before(ex:date-time(), 'T'), ' ', substring-before(substring-after(ex:date-time(), 'T'), '+'))"/>
+                </date_generated>
             </summary>
 
         </bookstore>
