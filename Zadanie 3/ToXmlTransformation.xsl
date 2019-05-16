@@ -69,6 +69,12 @@
             </library>
 
             <summary>
+                <xsl:attribute name="booksCount">
+                    <xsl:value-of select="count(library/book)"/>
+                </xsl:attribute>
+                <xsl:attribute name="authorsCount">
+                        <xsl:value-of select="count(library/author)"/>
+                </xsl:attribute>
                 <date_generated>
                     <xsl:value-of
                             select="concat(substring-before(ex:date-time(), 'T'), ' ', substring-before(substring-after(ex:date-time(), 'T'), '+'))"/>
@@ -82,11 +88,6 @@
 </xsl:stylesheet>
 
         <!--
-
-            Wyświetlać dane autora przy każdej książce (wiązanie ID - IDREF)
-
-            Posortować ksiązki gatunkami i alfabetycznie wewnątrz kategorii
-
             Na końcu raportu wygenerować:
                 - liczbę elementów (ile książek i ilu autorów)
                 - liczbę kategorii książek
