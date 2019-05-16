@@ -51,7 +51,7 @@
                             </xsl:for-each>
                         </author>
                         <isbn>
-                            <xsl:value-of select="attribute::bookID"/>
+                            <xsl:value-of select="substring-after(@bookID, 'ID')"/>
                         </isbn>
                         <price>
                             <xsl:attribute name="currency">PLN</xsl:attribute>
