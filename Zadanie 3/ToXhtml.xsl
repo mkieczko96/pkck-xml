@@ -108,6 +108,7 @@
                 <th>Liczba książek</th>
             </tr>
             <xsl:for-each select="categories/*">
+                <xsl:sort select="./@booksCount" order="descending" data-type="number"/>
                 <tr>
                     <td>
                         <xsl:attribute name="align">center</xsl:attribute>
