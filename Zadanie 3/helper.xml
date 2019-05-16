@@ -1,16 +1,20 @@
 <?xml version="1.0" encoding="windows-1250"?><bookstore>
     <creators>
         <creator>
-            <name>WYPYCH, Anna</name>
+            <name>WYPYCH,
+                                Anna</name>
             <index>210357</index>
             <e-mail>210357@edu.p.lodz.pl</e-mail>
-            <study>Wydzial FTIMS, Informatyka, SIBD</study>
+            <study>Wydzial FTIMS, Informatyka,
+                                SIBD</study>
         </creator>
         <creator>
-            <name>KIECZKOWSKI, Mateusz</name>
+            <name>KIECZKOWSKI,
+                                Mateusz</name>
             <index>210220</index>
             <e-mail>210220@edu.p.lodz.pl</e-mail>
-            <study>Wydzial FTIMS, Informatyka, SIBD</study>
+            <study>Wydzial FTIMS, Informatyka,
+                                SIBD</study>
         </creator>
     </creators>
     <library>
@@ -366,6 +370,17 @@
         </book>
     </library>
     <summary booksCount="35" authorsCount="30">
-        <date_generated>2019-05-16 17:48:06</date_generated>
+        <categories>
+            <fantastyka/>
+            <horror/>
+            <kryminał/>
+            <literatura_piękna/>
+            <literatura_faktu/>
+            <publicystyka/>
+            <romans/>
+            <historyczna/>
+            <literatura_współczesna/>
+        </categories>
+        <date_generated>2019-05-16 19:13:36</date_generated>
     </summary>
 </bookstore>
