@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="windows-1250"?>
-<bookstore>
+<?xml version="1.0" encoding="windows-1250"?><bookstore>
     <creators>
         <creator>
             <name>WYPYCH, Anna</name>
@@ -367,6 +366,6 @@
         </book>
     </library>
     <summary>
-        <date_generated>2019-05-10 00:30:47</date_generated>
+        <date_generated>2019-05-16 17:27:49</date_generated>
     </summary>
 </bookstore>
