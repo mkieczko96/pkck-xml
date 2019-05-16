@@ -4,7 +4,7 @@
                 xmlns:ex="http://exslt.org/dates-and-times" extension-element-prefixes="ex">
 
     <xsl:output method="xml" encoding="UTF-8" indent="yes"/>
-
+    <xsl:strip-space elements="*"/>
     <xsl:key name="categoriesKey" match="library/book/category" use="."/>
 
     <xsl:template match="/">
@@ -14,8 +14,7 @@
                 <xsl:for-each select="library/document-authors">
                     <xsl:for-each select="document-author">
                         <creator>
-                            <name><xsl:value-of select="lastname"/>,
-                                <xsl:value-of select="firstname"/>
+                            <name><xsl:value-of select="lastname"/>, <xsl:value-of select="firstname"/>
                             </name>
                             <index>
                                 <xsl:value-of select="index"/>
@@ -23,8 +22,7 @@
                             <e-mail>
                                 <xsl:value-of select="e-mail"/>
                             </e-mail>
-                            <study>Wydzial <xsl:value-of select="department"/>, <xsl:value-of select="faculty"/>,
-                                <xsl:value-of select="major"/>
+                            <study>Wydzial <xsl:value-of select="department"/>, <xsl:value-of select="faculty"/>, <xsl:value-of select="major"/>
                             </study>
                         </creator>
                     </xsl:for-each>
@@ -99,9 +97,19 @@
                         </xsl:variable>
 
                         <xsl:element name="{$catName}">
+                            <xsl:attribute name="booksCount">
+                                <xsl:variable name="cate">
+                                    <xsl:call-template name="replace">
+                                        <xsl:with-param name="text" select="$catName"/>
+                                        <xsl:with-param name="replace" select="'_'"/>
+                                        <xsl:with-param name="by" select="' '"/>
+                                    </xsl:call-template>
+                                </xsl:variable>
 
+                                <xsl:value-of select="count(/library/book[category=$cate])"/>
+                            </xsl:attribute>
                         </xsl:element>
-                        
+
                     </xsl:for-each>
                 </categories>
                 <date_generated>
@@ -139,16 +147,3 @@
     </xsl:template>
 
 </xsl:stylesheet>
-
-        <!--
-            Na końcu raportu wygenerować:
-                - liczbę kategorii książek
-                - sumy częściowe/total - zsumować ceny książek? dodać liczenie podatku vat od cen książek?
-
-                czy mają propozycje do walca:
-                czy poczekają do końca tygodnia:
-                                                            moon-river
-                                                            fastination
-                do której będą grać - ile godzin:           do konca wesela
-                czy jakieś spotkanie z młodymi - kiedy:     my mamy/
-        -->

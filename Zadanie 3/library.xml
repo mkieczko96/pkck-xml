@@ -154,7 +154,7 @@
     </book>
     <book bookID='ID000-000-0016' authorIDREF='ID7'>
         <title>Outsider</title>
-        <publisher>Prószyński iS-ka</publisher>
+        <publisher>Prószyński i S-ka</publisher>
         <page_count>640</page_count>
         <price>29.99</price>
         <release_date>05-06-2018</release_date>
@@ -169,7 +169,7 @@
         <category>literatura współczesna</category>
     </book>
     <book bookID='ID000-000-0018' authorIDREF='ID18'>
-        <title>Ogie n i krew. Część I</title>
+        <title>Ogień i krew. Część I</title>
         <publisher>Zysk i S-ka</publisher>
         <page_count>612</page_count>
         <price>39.99</price>
@@ -297,7 +297,7 @@
         <category>literatura faktu</category>
     </book>
     <book bookID='ID000-000-0034' authorIDREF='ID34'>
-        <title>Slużące do wszystkiego</title>
+        <title>Służące do wszystkiego</title>
         <publisher>Marginesy</publisher>
         <page_count>416</page_count>
         <price>37.99</price>
