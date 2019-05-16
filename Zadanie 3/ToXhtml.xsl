@@ -10,17 +10,20 @@
                     Księgarnia
                 </title>
             </head>
-            <body>
-                <h1>
+            <body bgcolor="#FEEED7">
+                <h1 align="center">
                     Księgarnia
                 </h1>
+
                 <xsl:for-each select="bookstore">
                     <xsl:apply-templates select="summary"/>
                 </xsl:for-each>
+
                 <br/><br/>
+
                 <table width="100%" border="2m">
                     <caption><b><i><h3>Zbiór książek</h3></i></b></caption>
-                    <tr>
+                    <tr bgcolor="#CABDAB">
                         <th>Tytył książki</th>
                         <th>Autor</th>
                         <th>Kategoria</th>
@@ -34,6 +37,19 @@
                         <xsl:apply-templates select="book"/>
                     </xsl:for-each>
                 </table>
+
+                <br/><br/>
+
+                <xsl:for-each select="bookstore/creators">
+                    <table align="center" width="50%" border="2m">
+                        <tr>
+                            <xsl:apply-templates select="creator"/>
+                        </tr>
+                    </table>
+                </xsl:for-each>
+
+                <br/>
+
                 <p>
                     Stan na dzień :
                     <xsl:value-of select="bookstore/summary/date_generated"/>
@@ -65,6 +81,8 @@
             <td>
                 <xsl:attribute name="align">center</xsl:attribute>
                 <xsl:value-of select="price"/>
+                <xsl:text> </xsl:text>
+                <xsl:value-of select="price/@currency"/>
             </td>
             <td>
                 <xsl:attribute name="align">center</xsl:attribute>
@@ -85,7 +103,7 @@
         <table border="2m">
             <xsl:attribute name="align">center</xsl:attribute>
             <caption><b><i><h3>Statystyki</h3></i></b></caption>
-            <tr>
+            <tr bgcolor="#CABDAB">
                 <th>Kategoria</th>
                 <th>Liczba książek</th>
             </tr>
@@ -106,6 +124,16 @@
                 </tr>
             </xsl:for-each>
         </table>
+    </xsl:template>
+
+    <xsl:template match="creator">
+                <td>
+                    <xsl:attribute name="align">center</xsl:attribute>
+                    <xsl:value-of select="name"/><br/>
+                    <xsl:value-of select="index"/><br/>
+                    <xsl:value-of select="e-mail"/><br/>
+                    <xsl:value-of select="study"/>
+                </td>
     </xsl:template>
 
 </xsl:stylesheet>
