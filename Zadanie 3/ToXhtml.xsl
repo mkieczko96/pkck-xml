@@ -17,7 +17,9 @@
                 <xsl:for-each select="bookstore">
                     <xsl:apply-templates select="summary"/>
                 </xsl:for-each>
-                <table>
+                <br/><br/>
+                <table width="100%" border="2m">
+                    <caption><b><i><h3>Zbiór książek</h3></i></b></caption>
                     <tr>
                         <th>Tytył książki</th>
                         <th>Autor</th>
@@ -32,6 +34,11 @@
                         <xsl:apply-templates select="book"/>
                     </xsl:for-each>
                 </table>
+                <p>
+                    Stan na dzień :
+                    <xsl:value-of select="bookstore/summary/date_generated"/>
+                </p>
+
             </body>
         </html>
     </xsl:template>
@@ -39,35 +46,45 @@
     <xsl:template match="book">
         <tr>
             <td>
+                <xsl:attribute name="align">center</xsl:attribute>
+
                 <xsl:value-of select="title"/>
             </td>
             <td>
+                <xsl:attribute name="align">center</xsl:attribute>
                 <xsl:value-of select="author"/>
             </td>
             <td>
+                <xsl:attribute name="align">center</xsl:attribute>
                 <xsl:value-of select="category"/>
             </td>
             <td>
+                <xsl:attribute name="align">center</xsl:attribute>
                 <xsl:value-of select="publisher"/>
             </td>
             <td>
+                <xsl:attribute name="align">center</xsl:attribute>
                 <xsl:value-of select="price"/>
             </td>
             <td>
+                <xsl:attribute name="align">center</xsl:attribute>
                 <xsl:value-of select="page_count"/>
             </td>
             <td>
+                <xsl:attribute name="align">center</xsl:attribute>
                 <xsl:value-of select="isbn"/>
             </td>
             <td>
+                <xsl:attribute name="align">center</xsl:attribute>
                 <xsl:value-of select="release_date"/>
             </td>
         </tr>
     </xsl:template>
 
     <xsl:template match="summary">
-        <table>
-            <caption>Statystyki</caption>
+        <table border="2m">
+            <xsl:attribute name="align">center</xsl:attribute>
+            <caption><b><i><h3>Statystyki</h3></i></b></caption>
             <tr>
                 <th>Kategoria</th>
                 <th>Liczba książek</th>
@@ -75,13 +92,17 @@
             <xsl:for-each select="categories/*">
                 <tr>
                     <td>
+                        <xsl:attribute name="align">center</xsl:attribute>
                         <xsl:call-template name="replace">
                             <xsl:with-param name="text" select="name(.)"/>
                             <xsl:with-param name="replace" select="'_'"/>
                             <xsl:with-param name="by" select="' '"/>
                         </xsl:call-template>
                     </td>
-                    <td><xsl:value-of select="@booksCount"/></td>
+                    <td>
+                        <xsl:attribute name="align">center</xsl:attribute>
+                        <xsl:value-of select="@booksCount"/>
+                    </td>
                 </tr>
             </xsl:for-each>
         </table>
