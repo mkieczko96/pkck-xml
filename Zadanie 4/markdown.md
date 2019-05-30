@@ -1,8 +1,8 @@
 
-# Ksiegarnia
+# Księgarnia
 
 ###  Statystyki
-| Kategoria | Liczba ksiazek |
+| Kategoria | Liczba książek |
 |:---|:---:|
 |fantastyka | 14 |
 |kryminał | 6 |
@@ -14,9 +14,9 @@
 |publicystyka | 1 |
 |historyczna | 1 |
 
-### Zbior ksiazek
+### Zbiór książek na dzień 2019-05-16 21:12:56
 
-| Tytul | Autor | Kategoria | Wydawnictwo | Cena | Liczba stron | Data wydania |
+| Tytuł | Autor | Kategoria | Wydawnictwo | Cena | Liczba stron | Data wydania |
 |:---|:---|:---|:---|:---:|:---:|---:|
 | **Cień rycerza** (*000-000-0032*) | **de Castel, Sebastien** | fantastyka | Insignis | 36.99 *PLN* | 648 | 04-04-2018|
 | **Dawca Przysięgi** (*000-000-0029*) | **Sanderson, Brandon** | fantastyka | Mag | 33.99 *PLN* | 656 | 18-04-2018|
@@ -54,7 +54,7 @@
 | **Wszystkie nasze obietnice** (*000-000-0011*) | **Hoover, Colleen** | romans | Otwarte | 25.99 *PLN* | 294 | 14-11-2018|
 | **Z każdym wdechem** (*000-000-0020*) | **Sparks, Nicholas** | romans | Albatros | 25.99 *PLN* | 368 | 17-10-2018|
 
-### Tworcy
+### Twórcy
 
 
 * **WYPYCH, Anna** *210357@edu.p.lodz.pl* Wydzial FTIMS, Informatyka, SIBD

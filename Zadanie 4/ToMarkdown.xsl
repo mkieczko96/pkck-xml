@@ -3,17 +3,17 @@
 <xsl:output method="text" indent="yes" omit-xml-declaration="yes"/>
 <xsl:strip-space elements="*"/>
 <xsl:template match="bookstore">
-# Ksiegarnia
+# Księgarnia
 <xsl:apply-templates select="summary"/>
-### Zbior ksiazek
+### Zbiór książek na dzień <xsl:value-of select="summary/date_generated"/>
 
-| Tytul | Autor | Kategoria | Wydawnictwo | Cena | Liczba stron | Data wydania |
+| Tytuł | Autor | Kategoria | Wydawnictwo | Cena | Liczba stron | Data wydania |
 |:---|:---|:---|:---|:---:|:---:|---:|
 <xsl:for-each select="library"><xsl:apply-templates select="book"/>
 </xsl:for-each>
 
 <xsl:for-each select="creators">
-### Tworcy
+### Twórcy
 
 <xsl:apply-templates select="creator"/>
 </xsl:for-each>
@@ -21,7 +21,7 @@
 
 <xsl:template match="summary">
 ###  Statystyki
-| Kategoria | Liczba ksiazek |
+| Kategoria | Liczba książek |
 |:---|:---:|
 <xsl:for-each select="categories/*"><xsl:sort select="./@booksCount" order="descending" data-type="number"/>|<xsl:call-template name="replace"><xsl:with-param name="text" select="name(.)"/><xsl:with-param name="replace" select="'_'"/><xsl:with-param name="by" select="' '"/></xsl:call-template> | <xsl:value-of select="@booksCount"/> |
 </xsl:for-each>
