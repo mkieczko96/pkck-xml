@@ -11,7 +11,12 @@
 |:---|:---|:---|:---|:---:|:---:|---:|
 <xsl:for-each select="library"><xsl:apply-templates select="book"/>
 </xsl:for-each>
-<xsl:apply-templates select="creators"/>
+
+<xsl:for-each select="creators">
+### Tworcy
+
+<xsl:apply-templates select="creator"/>
+</xsl:for-each>
 </xsl:template>
 
 <xsl:template match="summary">
@@ -22,9 +27,13 @@
 </xsl:for-each>
 </xsl:template>
 
-<xsl:template match="book">| <xsl:value-of select="title"/> | <xsl:value-of select="author"/> | <xsl:value-of select="category"/> | <xsl:value-of
-select="publisher"/> | <xsl:value-of select="price"/> <xsl:value-of select="price/@currency"/> | <xsl:value-of
+<xsl:template match="book">| **<xsl:value-of select="title"/>** (*<xsl:value-of select="isbn"/>*) | **<xsl:value-of select="author"/>** | <xsl:value-of select="category"/> | <xsl:value-of
+select="publisher"/> | <xsl:value-of select="price"/> *<xsl:value-of select="price/@currency"/>* | <xsl:value-of
 select="page_count"/> | <xsl:value-of select="release_date"/>|
+</xsl:template>
+
+<xsl:template match="creator">
+* **<xsl:value-of select="name"/>** *<xsl:value-of select="e-mail"/>* <xsl:value-of select="study"/>
 </xsl:template>
 
 <xsl:template name="replace">
