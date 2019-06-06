@@ -1,9 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version="1.0"
                 xmlns:fo="http://www.w3.org/1999/XSL/Format">
     <!-- PDF page structure -->
     <xsl:template match="bookstore">
-        <fo:root font-family="Arial Unicode">
+        <fo:root>
             <fo:layout-master-set>
                 <fo:simple-page-master master-name="page"
                                        page-height="29.7cm"
