@@ -63,16 +63,22 @@
       <DependentUpon>App.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="Model\Book.cs" />
+    <Compile Include="Model\BookStore.cs" />
+    <Compile Include="Model\Categories.cs" />
+    <Compile Include="Model\Category.cs" />
+    <Compile Include="Model\Creator.cs" />
+    <Compile Include="Model\Creators.cs" />
+    <Compile Include="Model\DAL\Serializer.cs" />
+    <Compile Include="Model\Library.cs" />
+    <Compile Include="Model\Price.cs" />
+    <Compile Include="Model\Summary.cs" />
     <Compile Include="View\MainWindow.xaml.cs">
       <DependentUpon>MainWindow.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Model\Author.cs" />
-    <Compile Include="Model\Book.cs" />
-    <Compile Include="Model\DocumentAuthor.cs" />
-    <Compile Include="Model\Library.cs" />
     <Compile Include="Properties\AssemblyInfo.cs">
       <SubType>Code</SubType>
     </Compile>
@@ -100,6 +106,9 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="ViewModel\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Database\helper.xml" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
