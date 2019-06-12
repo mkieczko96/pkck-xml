@@ -1,26 +1,31 @@
 ﻿namespace MVVM.Model
 {
+    using System.Xml.Serialization;
+
     public class Book
     {
-        public string BookID { get; set; }
-        public Author Author { get; set; }
+        [XmlElement("title")]
         public string Title { get; set; }
-        public string Publisher { get; set; }
-        public int PageCount { get; set; }
-        public float Price { get; set; }
-        public string ReleaseDate { get; set; }
+
+        [XmlElement("category")]
         public string Category { get; set; }
 
-        public Book(string bookID, Author author, string title, string publisher, int pageCount, float price, string releaseDate, string category)
-        {
-            BookID = bookID;
-            Author = author;
-            Title = title;
-            Publisher = publisher;
-            PageCount = pageCount;
-            Price = price;
-            ReleaseDate = releaseDate;
-            Category = category;
-        }
+        [XmlElement("author")]
+        public string Author { get; set; }
+
+        [XmlElement("isbn")]
+        public string ISBN { get; set; }
+
+        [XmlElement("price")]
+        public Price Price { get; set; }
+
+        [XmlElement("release_date")]
+        public string ReleaseDate { get; set; }
+
+        [XmlElement("page_count")]
+        public int PageCount { get; set; }
+
+        [XmlElement("publisher")]
+        public string Publisher { get; set; }
     }
 }
