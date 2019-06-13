@@ -1,0 +1,428 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+
+<?xml-stylesheet href="ToXmlTransformation.xsl" type="text/xsl" ?>
+
+<library xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="library_schema.xsd">
+    <document-authors>
+        <document-author>
+            <lastname>WYPYCH</lastname>
+            <firstname>Anna</firstname>
+            <index>210357</index>
+            <e-mail>210357@edu.p.lodz.pl</e-mail>
+            <faculty>Informatyka</faculty>
+            <major>SIBD</major>
+            <department>FTIMS</department>
+        </document-author>
+        <document-author>
+            <lastname>KIECZKOWSKI</lastname>
+            <firstname>Mateusz</firstname>
+            <index>210220</index>
+            <e-mail>210220@edu.p.lodz.pl</e-mail>
+            <faculty>Informatyka</faculty>
+            <major>SIBD</major>
+            <department>FTIMS</department>
+        </document-author>
+    </document-authors>
+
+    <book bookID='ID000-000-0000' authorIDREF='ID0'>
+        <title>Silmarillion</title>
+        <publisher>Zysk i Sk-a</publisher>
+        <page_count>687</page_count>
+        <price>39.99</price>
+        <release_date>12-11-2017</release_date>
+        <category>fantastyka</category>
+    </book>
+    <book bookID='ID000-000-0001' authorIDREF='ID1'>
+        <title>Umorzenie</title>
+        <publisher>Czwarta strona</publisher>
+        <page_count>400</page_count>
+        <price>30.99</price>
+        <release_date>13-03-2019</release_date>
+        <category>fantastyka</category>
+    </book>
+    <book bookID='ID000-000-0002' authorIDREF='ID2'>
+        <title>Dziennik 29. Interaktywna gra książkowa</title>
+        <publisher>Foxgames</publisher>
+        <page_count>120</page_count>
+        <price>22.99</price>
+        <release_date>13-03-2019</release_date>
+        <category>horror</category>
+    </book>
+    <book bookID='ID000-000-0003' authorIDREF='ID3'>
+        <title>Początek</title>
+        <publisher>Sonia Draga</publisher>
+        <page_count>576</page_count>
+        <price>31.99</price>
+        <release_date>03-10-2017</release_date>
+        <category>kryminał</category>
+    </book>
+    <book bookID='ID000-000-0004' authorIDREF='ID4'>
+        <title>Labirynt duchów</title>
+        <publisher>Muza</publisher>
+        <page_count>896</page_count>
+        <price>48.86</price>
+        <release_date>11-10-2017</release_date>
+        <category>literatura piękna</category>
+    </book>
+    <book bookID='ID000-000-0005' authorIDREF='ID5'>
+        <title>Wiedźmin. Szpony i kły</title>
+        <publisher>superNOWA</publisher>
+        <page_count>400</page_count>
+        <price>47.41</price>
+        <release_date>08-11-2017</release_date>
+        <category>fantastyka</category>
+    </book>
+    <book bookID='ID000-000-0006' authorIDREF='ID6'>
+        <title>Czarownica</title>
+        <publisher>Czarna Owca</publisher>
+        <page_count>592</page_count>
+        <price>33.99</price>
+        <release_date>08-11-2017</release_date>
+        <category>kryminał</category>
+    </book>
+    <book bookID='ID000-000-0007' authorIDREF='ID7'>
+        <title>To</title>
+        <publisher>Albatros</publisher>
+        <page_count>1104</page_count>
+        <price>37.99</price>
+        <release_date>30-08-2017</release_date>
+        <category>horror</category>
+    </book>
+    <book bookID='ID000-000-0008' authorIDREF='ID8'>
+        <title>Macierewicz i jego tajemnice</title>
+        <publisher>Arbitror</publisher>
+        <page_count>216</page_count>
+        <price>27.99</price>
+        <release_date>26-06-2017</release_date>
+        <category>literatura faktu</category>
+    </book>
+    <book bookID='ID000-000-0009' authorIDREF='ID9'>
+        <title>Pierwszy śnieg</title>
+        <publisher>Wydawnictwo Dolnośląskie</publisher>
+        <page_count>432</page_count>
+        <price>32.99</price>
+        <release_date>11-10-2017</release_date>
+        <category>kryminał</category>
+    </book>
+    <book bookID='ID000-000-0010' authorIDREF='ID10'>
+        <title>Nietypowa Matka Polka</title>
+        <publisher>Edipresse</publisher>
+        <page_count>320</page_count>
+        <price>27.99</price>
+        <release_date>22-08-2018</release_date>
+        <category>publicystyka</category>
+    </book>
+    <book bookID='ID000-000-0011' authorIDREF='ID11'>
+        <title>Wszystkie nasze obietnice</title>
+        <publisher>Otwarte</publisher>
+        <page_count>294</page_count>
+        <price>25.99</price>
+        <release_date>14-11-2018</release_date>
+        <category>romans</category>
+    </book>
+    <book bookID='ID000-000-0012' authorIDREF='ID1'>
+        <title>Nieodgadniona</title>
+        <publisher>Filia</publisher>
+        <page_count>400</page_count>
+        <price>29.99</price>
+        <release_date>30-01-2019</release_date>
+        <category>kryminał</category>
+    </book>
+    <book bookID='ID000-000-0013' authorIDREF='ID1'>
+        <title>Kasacja</title>
+        <publisher>Czwarta strona</publisher>
+        <page_count>496</page_count>
+        <price>20.99</price>
+        <release_date>18-02-2015</release_date>
+        <category>kryminał</category>
+    </book>
+    <book bookID='ID000-000-0014' authorIDREF='ID14'>
+        <title>Tatuażysta z Auschwitz</title>
+        <publisher>Marginesy</publisher>
+        <page_count>320</page_count>
+        <price>22.99</price>
+        <release_date>18-04-2018</release_date>
+        <category>historyczna</category>
+    </book>
+    <book bookID='ID000-000-0015' authorIDREF='ID15'>
+        <title>Ślepnąc od świateł</title>
+        <publisher>Świat Książki</publisher>
+        <page_count>520</page_count>
+        <price>24.99</price>
+        <release_date>17-10-2018</release_date>
+        <category>literatura współczesna</category>
+    </book>
+    <book bookID='ID000-000-0016' authorIDREF='ID7'>
+        <title>Outsider</title>
+        <publisher>Prószyński i S-ka</publisher>
+        <page_count>640</page_count>
+        <price>29.99</price>
+        <release_date>05-06-2018</release_date>
+        <category>kryminał</category>
+    </book>
+    <book bookID='ID000-000-0017' authorIDREF='ID4'>
+        <title>Cień wiatru</title>
+        <publisher>Cmentarz Zapomnianych Książek</publisher>
+        <page_count>520</page_count>
+        <price>14.99</price>
+        <release_date>11-10-2017</release_date>
+        <category>literatura współczesna</category>
+    </book>
+    <book bookID='ID000-000-0018' authorIDREF='ID18'>
+        <title>Ogień i krew. Część I</title>
+        <publisher>Zysk i S-ka</publisher>
+        <page_count>612</page_count>
+        <price>39.99</price>
+        <release_date>20-11-2018</release_date>
+        <category>fantastyka</category>
+    </book>
+    <book bookID='ID000-000-0019' authorIDREF='ID19'>
+        <title>Rok 1984</title>
+        <publisher>Muza</publisher>
+        <page_count>360</page_count>
+        <price>9.99</price>
+        <release_date>01-01-2014</release_date>
+        <category>literatura współczesna</category>
+    </book>
+    <book bookID='ID000-000-0020' authorIDREF='ID20'>
+        <title>Z każdym wdechem</title>
+        <publisher>Albatros</publisher>
+        <page_count>368</page_count>
+        <price>25.99</price>
+        <release_date>17-10-2018</release_date>
+        <category>romans</category>
+    </book>
+    <book bookID='ID000-000-0021' authorIDREF='ID21'>
+        <title>Metro 2033</title>
+        <publisher>Insignis</publisher>
+        <page_count>342</page_count>
+        <price>27.99</price>
+        <release_date>17-10-2018</release_date>
+        <category>fantastyka</category>
+    </book>
+    <book bookID='ID000-000-0022' authorIDREF='ID22'>
+        <title>Wieża świtu</title>
+        <publisher>Uroboros</publisher>
+        <page_count>848</page_count>
+        <price>34.99</price>
+        <release_date>18-04-2018</release_date>
+        <category>fantastyka</category>
+    </book>
+    <book bookID='ID000-000-0023' authorIDREF='ID23'>
+        <title>Zwiadowcy. Klan Czerwonego Lisa</title>
+        <publisher>Jaguar</publisher>
+        <page_count>400</page_count>
+        <price>36.99</price>
+        <release_date>20-06-2018</release_date>
+        <category>fantastyka</category>
+    </book>
+    <book bookID='ID000-000-0024' authorIDREF='ID7'>
+        <title>Uniesienie</title>
+        <publisher>Albatros</publisher>
+        <page_count>176</page_count>
+        <price>37.99</price>
+        <release_date>14-11-2018</release_date>
+        <category>horror</category>
+    </book>
+    <book bookID='ID000-000-0025' authorIDREF='ID25'>
+        <title>Dziwna pogoda</title>
+        <publisher>Albatros</publisher>
+        <page_count>512</page_count>
+        <price>28.99</price>
+        <release_date>05-09-2018</release_date>
+        <category>horror</category>
+    </book>
+    <book bookID='ID000-000-0026' authorIDREF='ID26'>
+        <title>Spektrum</title>
+        <publisher>Uroboros</publisher>
+        <page_count>416</page_count>
+        <price>24.99</price>
+        <release_date>03-10-2018</release_date>
+        <category>fantastyka</category>
+    </book>
+    <book bookID='ID000-000-0027' authorIDREF='ID27'>
+        <title>Koniec śmierci</title>
+        <publisher>Rebis</publisher>
+        <page_count>840</page_count>
+        <price>25.99</price>
+        <release_date>03-04-2018</release_date>
+        <category>fantastyka</category>
+    </book>
+    <book bookID='ID000-000-0028' authorIDREF='ID28'>
+        <title>Hajmdal. Początek podróży</title>
+        <publisher>Drageus Publishing House</publisher>
+        <page_count>336</page_count>
+        <price>21.99</price>
+        <release_date>07-06-2018</release_date>
+        <category>fantastyka</category>
+    </book>
+    <book bookID='ID000-000-0029' authorIDREF='ID29'>
+        <title>Dawca Przysięgi</title>
+        <publisher>Mag</publisher>
+        <page_count>656</page_count>
+        <price>33.99</price>
+        <release_date>18-04-2018</release_date>
+        <category>fantastyka</category>
+    </book>
+    <book bookID='ID000-000-0030' authorIDREF='ID30'>
+        <title>Virion. Obława</title>
+        <publisher>Fabryka Słów</publisher>
+        <page_count>506</page_count>
+        <price>25.99</price>
+        <release_date>19-09-2018</release_date>
+        <category>fantastyka</category>
+    </book>
+    <book bookID='ID000-000-0031' authorIDREF='ID31'>
+        <title>Otchłań: Księga I</title>
+        <publisher>Fabryka Słów</publisher>
+        <page_count>702</page_count>
+        <price>26.00</price>
+        <release_date>31-01-2018</release_date>
+        <category>fantastyka</category>
+    </book>
+    <book bookID='ID000-000-0032' authorIDREF='ID32'>
+        <title>Cień rycerza</title>
+        <publisher>Insignis</publisher>
+        <page_count>648</page_count>
+        <price>36.99</price>
+        <release_date>04-04-2018</release_date>
+        <category>fantastyka</category>
+    </book>
+    <book bookID='ID000-000-0033' authorIDREF='ID33'>
+        <title>Agonia</title>
+        <publisher>Wielka Litera</publisher>
+        <page_count>304</page_count>
+        <price>24.99</price>
+        <release_date>19-09-2018</release_date>
+        <category>literatura faktu</category>
+    </book>
+    <book bookID='ID000-000-0034' authorIDREF='ID34'>
+        <title>Służące do wszystkiego</title>
+        <publisher>Marginesy</publisher>
+        <page_count>416</page_count>
+        <price>37.99</price>
+        <release_date>17-10-2018</release_date>
+        <category>literatura faktu</category>
+    </book>
+
+    <author authorID='ID0'>
+        <lastname>Tolkien</lastname>
+        <firstname>J. R. R.</firstname>
+    </author>
+    <author authorID='ID1'>
+        <lastname>Mróz</lastname>
+        <firstname>Remigiusz</firstname>
+    </author>
+    <author authorID='ID2'>
+        <lastname>Chassapakis</lastname>
+        <firstname>Dimitris</firstname>
+    </author>
+    <author authorID='ID3'>
+        <lastname>Brown</lastname>
+        <firstname>Dan</firstname>
+    </author>
+    <author authorID='ID4'>
+        <lastname>Zafon</lastname>
+        <firstname>Carlos Ruiz</firstname>
+    </author>
+    <author authorID='ID5'>
+        <lastname>Sapkowski</lastname>
+        <firstname>Andrzej</firstname>
+    </author>
+    <author authorID='ID6'>
+        <lastname>Lackberg</lastname>
+        <firstname>Camilla</firstname>
+    </author>
+    <author authorID='ID7'>
+        <lastname>King</lastname>
+        <firstname>Stephen</firstname>
+    </author>
+    <author authorID='ID8'>
+        <lastname>Piątek</lastname>
+        <firstname>Tomasz</firstname>
+    </author>
+    <author authorID='ID9'>
+        <lastname>Nesbo</lastname>
+        <firstname>Jo</firstname>
+    </author>
+    <author authorID='ID10'>
+        <lastname>Szczepanek</lastname>
+        <firstname>Anna</firstname>
+    </author>
+    <author authorID='ID11'>
+        <lastname>Hoover</lastname>
+        <firstname>Colleen</firstname>
+    </author>
+    <author authorID='ID14'>
+        <lastname>Morris</lastname>
+        <firstname>Heather</firstname>
+    </author>
+    <author authorID='ID15'>
+        <lastname>Żulczyk</lastname>
+        <firstname>Jakub</firstname>
+    </author>
+    <author authorID='ID18'>
+        <lastname>Martin</lastname>
+        <firstname>George R. R.</firstname>
+    </author>
+    <author authorID='ID19'>
+        <lastname>Orwell</lastname>
+        <firstname>George</firstname>
+    </author>
+    <author authorID='ID20'>
+        <lastname>Sparks</lastname>
+        <firstname>Nicholas</firstname>
+    </author>
+    <author authorID='ID21'>
+        <lastname>Glukhovsky</lastname>
+        <firstname>Dmitry</firstname>
+    </author>
+    <author authorID='ID22'>
+        <lastname>Maas</lastname>
+        <firstname>Sarah J.</firstname>
+    </author>
+    <author authorID='ID23'>
+        <lastname>Flanagan</lastname>
+        <firstname>John</firstname>
+    </author>
+    <author authorID='ID25'>
+        <lastname>Hill</lastname>
+        <firstname>Joe</firstname>
+    </author>
+    <author authorID='ID26'>
+        <lastname>Raduchowska</lastname>
+        <firstname>Martyna</firstname>
+    </author>
+    <author authorID='ID27'>
+        <lastname>Liu</lastname>
+        <firstname>Cixin</firstname>
+    </author>
+    <author authorID='ID28'>
+        <lastname>Domagalski</lastname>
+        <firstname>Dariusz</firstname>
+    </author>
+    <author authorID='ID29'>
+        <lastname>Sanderson</lastname>
+        <firstname>Brandon</firstname>
+    </author>
+    <author authorID='ID30'>
+        <lastname>Ziemiański</lastname>
+        <firstname>Andrzej</firstname>
+    </author>
+    <author authorID='ID31'>
+        <lastname>Brett</lastname>
+        <firstname>Peter V.</firstname>
+    </author>
+    <author authorID='ID32'>
+        <lastname>de Castel</lastname>
+        <firstname>Sebastien</firstname>
+    </author>
+    <author authorID='ID33'>
+        <lastname>Kapusta</lastname>
+        <firstname>Paweł</firstname>
+    </author>
+    <author authorID='ID34'>
+        <lastname>Kuciel-Frydryszak</lastname>
+        <firstname>Joanna</firstname>
+    </author>
+</library>

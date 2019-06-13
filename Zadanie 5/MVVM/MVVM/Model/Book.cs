@@ -10,14 +10,14 @@
         [XmlElement("category")]
         public string Category { get; set; }
 
-        [XmlElement("author")]
+        [XmlAttribute("authorIDREF")]
         public string Author { get; set; }
 
-        [XmlElement("isbn")]
+        [XmlAttribute("bookID")]
         public string ISBN { get; set; }
 
         [XmlElement("price")]
-        public Price Price { get; set; }
+        public Author Price { get; set; }
 
         [XmlElement("release_date")]
         public string ReleaseDate { get; set; }
