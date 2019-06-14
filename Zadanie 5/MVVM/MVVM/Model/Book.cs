@@ -1,8 +1,9 @@
 ﻿namespace MVVM.Model
 {
+    using System.ComponentModel;
     using System.Xml.Serialization;
 
-    public class Book
+    public class Book 
     {
         [XmlElement("title")]
         public string Title { get; set; }
@@ -17,7 +18,7 @@
         public string ISBN { get; set; }
 
         [XmlElement("price")]
-        public Author Price { get; set; }
+        public float Price { get; set; }
 
         [XmlElement("release_date")]
         public string ReleaseDate { get; set; }

@@ -1,0 +1,272 @@
+﻿<Window x:Class="MVVM.View.BooksWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:prop="clr-namespace:MVVM.Properties"
+        xmlns:local="clr-namespace:MVVM"
+        xmlns:viewmodel="clr-namespace:MVVM.ViewModel"
+        mc:Ignorable="d"
+        Background="#1c1c1c"
+        ResizeMode="NoResize"
+        Height="450" 
+        Width="800"
+        Closed="Window_Closed">
+
+    <Window.DataContext>
+        <viewmodel:LibraryViewModel/>
+    </Window.DataContext>
+
+    <Window.Resources>
+        <DataTemplate x:Key="BookMasterTemplate">
+            <Grid HorizontalAlignment="Stretch">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="10*"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+                <TextBlock Grid.Column="0"
+                           Grid.Row="0"
+                           FontWeight="Bold"
+                           FontSize="12"
+                           Text="{Binding Path=Title, Mode=TwoWay}" Grid.ColumnSpan="2"/>
+                <TextBlock Grid.Column="0"
+                           Grid.Row="1"
+                           FontStyle="Italic"
+                           FontSize="10"
+                           Text="{Binding Path=ISBN, Mode=TwoWay}" Grid.ColumnSpan="2" />
+                <TextBlock Grid.Column="1"
+                           Grid.Row="0"
+                           Grid.RowSpan="2"
+                           TextAlignment="Right"
+                           Text="{Binding Path=Price, Mode=TwoWay}"/>
+                <Separator Grid.Row="1"
+                           Grid.ColumnSpan="2"
+                           Margin="5 15 5 5"/>
+            </Grid>
+        </DataTemplate>
+    </Window.Resources>
+
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="2*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="13*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="15*"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+
+        <Grid.RowDefinitions>
+            <RowDefinition Height="2*"/>
+            <RowDefinition Height="2*"/>
+            <RowDefinition Height="2*"/>
+            <RowDefinition Height="2*"/>
+            <RowDefinition Height="2*"/>
+            <RowDefinition Height="2*"/>
+            <RowDefinition Height="2*"/>
+            <RowDefinition Height="2*"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <!-- Background of left pane-->
+        <Canvas Grid.Row="0" 
+                Grid.Column="0" 
+                Grid.RowSpan="10" 
+                Background="#62088c"/>
+
+        <!-- Background of top pane -->
+
+        <!-- Background of whole application -->
+        <Canvas Grid.Row="1" 
+                Grid.Column="1" 
+                Grid.RowSpan="7" 
+                Grid.ColumnSpan="5" 
+                Background="#1c1c1c"/>
+
+        <!-- Close window button -->
+
+        <!-- Left pane Home button -->
+
+        <!-- Left pane Creators button -->
+
+        <!-- Left pane Books button -->
+        <Button Grid.Row="0" 
+                Grid.Column="0"  
+                HorizontalAlignment="Stretch" 
+                VerticalAlignment="Stretch"
+                BorderThickness="0,0,0,1"
+                Background="Transparent"
+                BorderBrush="#1c1c1c">
+            <Image HorizontalAlignment="Center"
+                   VerticalAlignment="Center"
+                   Margin="5"
+                   Source="/Resources/lib.png"/>
+        </Button>
+
+        <!-- Left pane Authors button -->
+
+        <ListView Grid.Column="2"
+                  Grid.Row="0"
+                  Grid.RowSpan="7"
+                  Margin="8"
+                  ItemsSource="{Binding Path=Books, Mode=TwoWay}"
+                  ItemTemplate="{StaticResource BookMasterTemplate}"
+                  HorizontalContentAlignment="Stretch"
+                  SelectedItem="{Binding Path=SelectedBook, Mode=TwoWay}"/>
+
+        
+        <Grid Grid.Column="4"
+              Grid.Row="0"
+              Grid.RowSpan="8">
+
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="2*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="2*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="2*"/>
+            </Grid.ColumnDefinitions>
+
+            <Grid.RowDefinitions>
+                <RowDefinition Height="2*"/>
+                <RowDefinition Height="2*"/>
+                <RowDefinition Height="2*"/>
+                <RowDefinition Height="2*"/>
+                <RowDefinition Height="2*"/>
+                <RowDefinition Height="2*"/>
+                <RowDefinition Height="2*"/>
+                <RowDefinition Height="2*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="2*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="2*"/>
+            </Grid.RowDefinitions>
+            
+            <Label Grid.Column="0"
+                 Grid.Row="1"
+                 HorizontalAlignment="Right"
+                 Foreground="White"
+                 Content="Author ID"
+                 HorizontalContentAlignment="Right"
+                 VerticalContentAlignment="Center"/>
+            <Label Grid.Column="0"
+                 Grid.Row="0"
+                 HorizontalAlignment="Right"
+                 Foreground="White"
+                 Content="Title"
+                 HorizontalContentAlignment="Right"
+                 VerticalContentAlignment="Center"/>
+            <Label Grid.Column="0"
+                 Grid.Row="2"
+                 HorizontalAlignment="Right"
+                 Foreground="White"
+                 Content="ISBN"
+                 HorizontalContentAlignment="Right"
+                 VerticalContentAlignment="Center"/>
+            <Label Grid.Column="0"
+                 Grid.Row="3"
+                 HorizontalAlignment="Right"
+                 Foreground="White"
+                 Content="Price"
+                 HorizontalContentAlignment="Right"
+                 VerticalContentAlignment="Center"/>
+            <Label Grid.Column="0"
+                 Grid.Row="4"
+                 HorizontalAlignment="Right"
+                 Foreground="White"
+                 Content="Release Date"
+                 HorizontalContentAlignment="Right"
+                 VerticalContentAlignment="Center"/>
+            <Label Grid.Column="0"
+                 Grid.Row="5"
+                 HorizontalAlignment="Right"
+                 Foreground="White"
+                 Content="Publisher"
+                 HorizontalContentAlignment="Right"
+                 VerticalContentAlignment="Center"/>
+            <Label Grid.Column="0"
+                 Grid.Row="6"
+                 HorizontalAlignment="Right"
+                 Foreground="White"
+                 Content="Page count"
+                 HorizontalContentAlignment="Right"
+                 VerticalContentAlignment="Center"/>
+            <Label Grid.Column="0"
+                 Grid.Row="7"
+                 HorizontalAlignment="Right"
+                 Foreground="White"
+                 Content="Category"
+                 HorizontalContentAlignment="Right"
+                 VerticalContentAlignment="Center"/>
+            
+            <TextBox Grid.Column="1"
+                     Grid.ColumnSpan="4"
+                 Grid.Row="0"
+                 Text="{Binding Path=SelectedBook.Title, Mode=TwoWay}"
+                 Margin="5 10 0 10"/>
+            <TextBox Grid.Column="1"
+                     Grid.ColumnSpan="4"
+                     Grid.Row="1"
+                     Margin="5 10 0 10"
+                     Text="{Binding Path=SelectedBook.Author, Mode=TwoWay}"/>
+            <TextBox Grid.Column="1"
+                     Grid.ColumnSpan="4"
+                     Grid.Row="2"
+                 Text="{Binding Path=SelectedBook.ISBN, Mode=TwoWay}"
+                 Margin="5 10 0 10"/>
+            <TextBox Grid.Column="1"
+                     Grid.ColumnSpan="4"
+                     Grid.Row="3"
+                 Text="{Binding Path=SelectedBook.Price, Mode=TwoWay}"
+                 Margin="5 10 0 10"/>
+            <TextBox Grid.Column="1"
+                     Grid.ColumnSpan="4"
+                     Grid.Row="4"
+                 Text="{Binding Path=SelectedBook.ReleaseDate, Mode=TwoWay}"
+                 Margin="5 10 0 10"/>
+            <TextBox Grid.Column="1"
+                     Grid.ColumnSpan="4"
+                     Grid.Row="5"
+                 Text="{Binding Path=SelectedBook.Publisher, Mode=TwoWay}"
+                 Margin="5 10 0 10"/>
+            <TextBox Grid.Column="1"
+                     Grid.ColumnSpan="4"
+                     Grid.Row="6"
+                 Text="{Binding Path=SelectedBook.PageCount, Mode=TwoWay}"
+                 Margin="5 10 0 10"/>
+            <TextBox Grid.Column="1"
+                     Grid.ColumnSpan="4"
+                     Grid.Row="7"
+                 Text="{Binding Path=SelectedBook.Category, Mode=TwoWay}"
+                 Margin="5 10 0 10"/>
+            <Button Grid.Column="0"
+                    Grid.Row="9"
+                    Content="Clear"
+                    Padding="2"
+                    Command="{Binding Path=ClearSelection}"/>
+            <Button Grid.Column="2"
+                    Grid.Row="9"
+                    Content="Add New"
+                    Padding="2"
+                    Command="{Binding Path=AddNew}"/>
+            <Button Grid.Column="4"
+                    Grid.Row="9"
+                    Content="Remove"
+                    Command="{Binding Path=RemoveBook}"/>
+            <Button Grid.Column="0"
+                    Grid.Row="11"
+                    Content="XHtml"
+                    Padding="2"
+                    Command="{Binding Path=ToXHTML}"/>
+            <Button Grid.Column="4"
+                    Grid.Row="11"
+                    Content="SVG"
+                    Padding="2"
+                    Command="{Binding Path=ToSvg}"/>
+        </Grid>
+    </Grid>
+</Window>

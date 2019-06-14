@@ -55,23 +55,25 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
-    <Page Include="View\MainWindow.xaml">
-      <Generator>MSBuild:Compile</Generator>
+    <Page Include="View\BooksWindow.xaml">
       <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
     </Page>
     <Compile Include="App.xaml.cs">
       <DependentUpon>App.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="Model\BaseModel.cs" />
     <Compile Include="Model\Book.cs" />
     <Compile Include="Model\DocumentAuthor.cs" />
     <Compile Include="Model\DAL\Serializer.cs" />
     <Compile Include="Model\DocumentAuthors.cs" />
     <Compile Include="Model\Library.cs" />
     <Compile Include="Model\Author.cs" />
-    <Compile Include="View\MainWindow.xaml.cs">
-      <DependentUpon>MainWindow.xaml</DependentUpon>
-      <SubType>Code</SubType>
+    <Compile Include="ViewModel\LibraryViewModel.cs" />
+    <Compile Include="ViewModel\RelayCommand.cs" />
+    <Compile Include="View\BooksWindow.xaml.cs">
+      <DependentUpon>BooksWindow.xaml</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
@@ -101,7 +103,7 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="ViewModel\" />
+    <Resource Include="Database\XSLT\ToXml.xsl" />
   </ItemGroup>
   <ItemGroup>
     <Resource Include="Database\library.xml" />
@@ -115,6 +117,15 @@
   </ItemGroup>
   <ItemGroup>
     <Resource Include="Resources\home.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Database\Output\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Database\XSLT\ToXhtml.xsl" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Database\XSLT\ToSvg.xsl" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

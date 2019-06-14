@@ -1,5 +1,6 @@
 ﻿namespace MVVM.Model
 {
+    using System.ComponentModel;
     using System.Xml.Serialization;
 
     public class DocumentAuthor
@@ -24,5 +25,6 @@
 
         [XmlElement("department")]
         public string Department { get; set; }
+        
     }
 }

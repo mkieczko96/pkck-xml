@@ -3,7 +3,7 @@
   <Profiles />
   <Settings>
     <Setting Name="LibraryPath" Type="System.String" Scope="Application">
-      <Value Profile="(Default)">C:\Users\mateusz.kieczkowski\OneDrive - Accenture\Desktop\pkck-xml\Zadanie 5\MVVM\MVVM\Database\library.xml</Value>
+      <Value Profile="(Default)">D:\Semestr6\XML\Zadanie 5\MVVM\MVVM\Database\library.xml</Value>
     </Setting>
   </Settings>
 </SettingsFile>

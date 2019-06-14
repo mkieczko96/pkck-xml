@@ -1,5 +1,6 @@
 ﻿namespace MVVM.Model
 {
+    using System.ComponentModel;
     using System.Xml.Serialization;
 
     public class Author
